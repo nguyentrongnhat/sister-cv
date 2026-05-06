@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Khanh Hoa - Software Tester CV</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #2980b9;
+            --text-color: #333;
+            --light-grey: #f4f7f6;
+            --border-color: #dcdde1;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: #525659;
+            padding: 40px 0;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            text-transform: uppercase;
+            color: var(--primary-color);
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--secondary-color);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: white;
+            background-color: var(--primary-color);
+            padding: 5px 15px;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+        .summary-text {
+            font-style: italic;
+            color: var(--secondary-color);
+            text-align: justify;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .skill-category {
+            font-size: 13px;
+        }
+
+        .skill-category strong {
+            color: var(--primary-color);
+        }
+
+        .experience-item, .project-item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--primary-color);
+            font-size: 15px;
+        }
+
+        .item-sub-header {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            color: var(--accent-color);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin-left: 20px;
+            font-size: 13.5px;
+            text-align: justify;
+        }
+
+        li {
+            margin-bottom: 3px;
+        }
+
+        .tech-stack {
+            font-size: 12px;
+            margin-top: 5px;
+            color: var(--secondary-color);
+        }
+
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .page { box-shadow: none; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>NGUYEN KHANH HOA</h1>
+            <div class="job-title">Software Quality Assurance Engineer (Manual & Automation)</div>
+            <div class="contact-info">
+                <div class="contact-item">📞 0702505072</div>
+                <div class="contact-item">📧 nguyenkhanhhoa6235@gmail.com</div>
+                <div class="contact-item">📍 Tan Binh, Ho Chi Minh City</div>
+                <div class="contact-item">🔗 linkedin.com/in/nguyenkhanhhoa02</div>
+            </div>
+        </header>
+
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p class="summary-text">
+                Detail-oriented Software Tester with over 1 year of experience in Manual and Automation testing, featuring a solid Software Engineering background. Proficient in designing robust test frameworks using Selenium WebDriver and Playwright. Expertise in bridging the gap between development and quality assurance by leveraging ReactJS knowledge to perform deep-dive technical testing. Committed to "Shift-Left" testing methodologies to deliver high-quality products in fast-paced Agile environments.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Testing Methodologies:</strong> Functional, Regression, Integration, API Testing, Risk-based Testing, Agile/Scrum.
+                </div>
+                <div class="skill-category">
+                    <strong>Automation Tools:</strong> Selenium WebDriver (Java), Playwright (JS/TS), TestNG, Page Object Model (POM).
+                </div>
+                <div class="skill-category">
+                    <strong>Technical Foundation:</strong> Java, JavaScript (ReactJS), HTML5, CSS3/SCSS, SQL (PostgreSQL, MySQL).
+                </div>
+                <div class="skill-category">
+                    <strong>Tools & Platforms:</strong> Git/GitHub, Jira, Postman, Figma, Docker, CI/CD (GitHub Actions basics).
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            
+            <div class="experience-item">
+                <div class="item-header">
+                    <span>AGEST VIETNAM</span>
+                    <span>03/2025 – Present</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Software Tester (Manual & Automation)</span>
+                </div>
+                <ul>
+                    <li>Transformed manual test suites into scalable automation frameworks using Selenium WebDriver and TestNG, increasing regression efficiency by 40%.</li>
+                    <li>Collaborated directly with developers in Sprint Planning to define Acceptance Criteria and identify potential edge cases early in the design phase.</li>
+                    <li>Performed thorough API testing using Postman to ensure data integrity between microservices.</li>
+                    <li>Managed defect lifecycle using Jira, ensuring critical bugs were prioritized and resolved before major releases.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="item-header">
+                    <span>NAM PHUONG DIGITAL TECHNOLOGY</span>
+                    <span>08/2024 – 02/2025</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Frontend Developer (ReactJS)</span>
+                </div>
+                <ul>
+                    <li>Developed responsive web interfaces and integrated RESTful APIs, providing a deep understanding of application state management and DOM structure.</li>
+                    <li>Debugging complex UI issues across different browsers, which sharpened the ability to identify the root cause of front-end defects.</li>
+                    <li>Advocated for unit testing and code reviews to maintain high-quality code standards within the development team.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Key Testing Projects</h2>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <span>E-Wallet & Payment Gateway (Mock Project)</span>
+                    <span>02/2026 – 04/2026</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Role: Senior QA Lead / Automation Engineer</span>
+                    <span>Team Size: 5</span>
+                </div>
+                <ul>
+                    <li>Developed an end-to-end automation suite for payment processing flows using Playwright, handling dynamic asynchronous transactions.</li>
+                    <li>Executed Security-focused testing to validate authorization headers and data encryption for sensitive user information.</li>
+                    <li>Simulated high-concurrency scenarios to monitor system behavior during peak transaction periods.</li>
+                </ul>
+                <div class="tech-stack"><strong>Tech Stack:</strong> Playwright, TypeScript, Postman, SQL, Docker.</div>
+            </div>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <span>Safe Railway - Booking System</span>
+                    <span>01/2026 – 02/2026</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Role: Automation Tester</span>
+                    <span>Team Size: 1</span>
+                </div>
+                <ul>
+                    <li>Built a Page Object Model (POM) framework from scratch to automate the booking and payment workflow.</li>
+                    <li>Maintained 95%+ test coverage for core business logic, reducing manual verification time significantly.</li>
+                    <li>Utilized Git for version control and integrated test reports for stakeholder transparency.</li>
+                </ul>
+                <div class="tech-stack"><strong>Tech Stack:</strong> Java, Selenium, TestNG, GitHub.</div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education & Certifications</h2>
+            <div class="education-item">
+                <strong>Ton Duc Thang University</strong>
+                <span>2020 – 2024</span>
+            </div>
+            <div style="font-size: 13.5px; margin-bottom: 10px;">
+                Bachelor of Software Engineering (GPA: 7.61/10)
+            </div>
+            <div style="font-size: 13px;">
+                • <strong>Certifications:</strong> Aptis ESOL B1 (2024), Agile Development & Scrum Framework (2023).
+            </div>
+        </section>
+    </div>
+</body>
+</html>
