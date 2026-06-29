@@ -83,7 +83,7 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 ### Software Tester Intern
 
-**12/2025 – 06/2026**
+**11/2025 – 05/2026**
 
 ### Responsibilities
 
@@ -107,7 +107,7 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 ### Frontend Developer Intern (ReactJS)
 
-**05/2025 – 11/2025**
+**04/2025 – 09/2025**
 
 ### Responsibilities
 
