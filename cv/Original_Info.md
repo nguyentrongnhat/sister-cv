@@ -1,6 +1,8 @@
 # NGUYEN KHANH HOA  
 ## SOFTWARE TESTER
 
+**Gender:** Female
+
 📞 0923692870  
 ✉ nguyenkhanhhoa1592@outlook.com  
 🔗 LinkedIn: www.linkedin.com/in/nguyenkhanhhoa02  
