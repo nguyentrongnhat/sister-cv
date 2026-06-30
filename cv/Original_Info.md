@@ -11,11 +11,11 @@
 
 # PROFESSIONAL SUMMARY
 
-Software Tester with internship experience in Manual Testing and Automation Testing for web applications.  
+Software Tester with internship experience in Manual Testing, Automation Testing, and basic Performance Testing for web applications. 
 
-Hands-on experience in requirement analysis, test case design, test execution, and defect reporting within Agile Scrum environments. Familiar with automation testing using Selenium WebDriver with Java and TestNG, applying Page Object Model (POM) to improve maintainability of test scripts.
+Hands-on experience in requirement analysis, test case design, test execution, and defect reporting within Agile Scrum environments. Strong programming foundation with **Java** as the primary language for automation testing using Selenium WebDriver and TestNG, applying Page Object Model (POM) to improve maintainability of test scripts. Proficient in web fundamentals with **JavaScript/TypeScript** experience, and possessing basic scripting capabilities in **Python**.
 
-Continuously improving technical skills in test automation, API testing, and CI/CD integration through self-learning and personal practice projects.
+Continuously improving technical skills in test automation, performance evaluation, API testing, and CI/CD integration through self-learning and personal practice projects.
 
 ---
 
@@ -26,6 +26,7 @@ Continuously improving technical skills in test automation, API testing, and CI/
 - Regression Testing
 - Smoke & Sanity Testing
 - Exploratory Testing
+- Basic Performance Testing
 - Requirement Analysis
 - Test Case Design
 - Defect Reporting
@@ -38,6 +39,10 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 ## Experienced In
 
+### Programming Languages
+- **Java** (Primary language - Strong proficiency in OOP, core syntax, and automation application)
+- **JavaScript / TypeScript** (Good understanding - Core concepts, DOM manipulation, and frontend logic)
+
 ### Manual Testing
 - Requirement Analysis  
 - Test Planning & Test Case Design  
@@ -46,20 +51,28 @@ Continuously improving technical skills in test automation, API testing, and CI/
 - Bug Reporting & Verification  
 
 ### Automation Testing
-- Selenium WebDriver  
+- Selenium WebDriver (Java)
 - TestNG  
 - Page Object Model (POM)  
 - Basic Automation Regression Execution  
 
+### Performance Testing (Basic)
+- Performance testing concepts (Load, Stress testing)
+- Basic scripting and execution with Apache JMeter
+- Analyzing basic metrics (Response Time, Throughput, Error Rate)
+
 ### API Testing
-- Postman (Basic usage)
+- Postman (Basic usage & API verification)
+
+### Languages
+- **English**: Intermediate level (Strong reading & listening comprehension, comfortable with technical documentation; Intermediate speaking skills)
 
 ### Version Control
 - Git  
 - GitHub  
 
 ### Databases
-- MySQL / PostgreSQL / SQL Server (Basic SQL queries)
+- MySQL / PostgreSQL / SQL Server (Basic SQL queries for data verification)
 
 ### Project Management
 - Jira  
@@ -68,10 +81,9 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 ## Familiar With / Self-Learning
 
+- **Python** (Basic scripting & syntax)
 - Playwright
-- Python (basic scripting)
-- JavaScript / TypeScript (basic understanding)
-- GitHub Actions (basic CI/CD concept)
+- **GitHub Actions** (Familiar with core concepts and capable of basic hands-on implementation)
 - Cross-browser testing concepts
 - Data-driven testing concepts
 
@@ -89,17 +101,18 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 - Participated in requirement analysis sessions with QA and development teams to understand testing scope.
 - Designed test cases based on functional requirements and user stories.
-- Prepared test data for functional and regression testing.
+- Prepared test data for functional, regression, and basic performance testing.
 - Executed manual test cases for web application features before release.
-- Reported and tracked defects using internal tracking tools.
+- Reported and tracked defects using internal tracking tools (Jira).
 - Collaborated with developers to verify bug fixes and perform regression testing.
 - Participated in Agile ceremonies including Sprint Planning, Daily Stand-up, and Sprint Review.
 - Assisted in maintaining automation test scripts using Selenium WebDriver with Java.
 
-### Automation Contribution
+### Automation & Performance Contribution
 
-- Supported creation and maintenance of Selenium automation scripts following Page Object Model structure.
+- Supported creation and maintenance of Selenium automation scripts in Java following Page Object Model structure.
 - Executed automated regression test suites and reviewed execution results.
+- Conducted basic load tests using Apache JMeter for core web modules to identify potential performance bottlenecks under mock user load.
 
 ---
 
@@ -111,12 +124,12 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 ### Responsibilities
 
-- Developed responsive UI components using ReactJS.
-- Integrated frontend features with RESTful APIs.
+- Developed responsive UI components using ReactJS, HTML5, and CSS3.
+- Integrated frontend features with RESTful APIs using JavaScript / TypeScript.
 - Fixed UI bugs and improved cross-browser compatibility.
 - Collaborated with backend developers during feature development.
-- Participated in testing and debugging before deployment.
-- Gained understanding of SDLC and team-based software development.
+- Participated in testing, debugging, and client-side performance optimization before deployment.
+- Gained deep understanding of SDLC, web ecosystems, and team-based software development.
 
 ---
 
@@ -126,9 +139,9 @@ Continuously improving technical skills in test automation, API testing, and CI/
 
 ## Safe Railway – Railway Ticket Booking System
 
-**Role:** Automation QA Intern  
+**Role:** Automation & Performance QA Intern  
 **Duration:** 12/2025 – 02/2026  
-**Team Size:** 1  
+**Team Size:** 7  
 
 ### Description
 
@@ -139,6 +152,7 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 - Java  
 - Selenium WebDriver  
 - TestNG  
+- Apache JMeter (Basic Performance)
 - Git / GitHub  
 
 ### Testing Activities
@@ -146,24 +160,26 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 - Requirement analysis  
 - Test case design  
 - Manual functional testing  
-- Automation testing (basic level)  
+- Automation testing (Page Object Model framework)  
+- Basic performance & load testing
 - Defect reporting  
 - Regression testing  
 
 ### Responsibilities
 
-- Developed basic automation test scripts using Selenium WebDriver with Java.
-- Applied Page Object Model (POM) structure for organizing test code.
-- Automated core user flows such as Login and Booking.
-- Executed regression test cases using TestNG.
-- Reported defects with clear reproduction steps.
+- Developed robust automation test scripts using Selenium WebDriver with Java.
+- Applied Page Object Model (POM) structure for organizing test code and maximizing reusability.
+- Automated core user flows such as Login, Search, and Booking.
+- Executed automated regression test cases using TestNG.
+- Set up basic load test threads in Apache JMeter to measure page response times during high-volume booking simulation.
+- Reported functional and performance defects with clear reproduction steps and environment logs.
 - Maintained source code using Git and GitHub.
 
 ### Outcome
 
-- Reduced manual effort for repetitive regression test cases through basic automation.
-- Improved test consistency for critical workflows.
-- Gained practical experience in automation testing lifecycle.
+- Reduced manual effort for repetitive regression test cases through reliable Java automation.
+- Identified and flagged response time bottlenecks in the ticket checkout API under baseline multi-user loads.
+- Gained practical experience in both automation and basic performance testing lifecycles.
 
 ---
 
@@ -189,37 +205,39 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 ### Responsibilities
 
 - Analyzed requirements and created test cases based on user stories.
-- Executed manual test cases for core business features.
-- Performed exploratory testing to identify edge cases.
+- Executed manual test cases for core business features (Cart Management, Checkout Flow).
+- Performed exploratory testing to identify edge cases and unexpected system behaviors.
 - Reported and tracked bugs with detailed steps.
 - Participated in test review sessions with team members.
-- Verified bug fixes through regression testing.
+- Verified bug fixes through rigorous regression testing.
 
 ### Outcome
 
 - Improved test coverage for critical user flows.
 - Detected functional issues before release.
-- Contributed to overall product stability.
+- Contributed to overall product stability and cross-browser responsiveness.
 
 ---
 
-# AUTOMATION UNDERSTANDING
+# AUTOMATION & PERFORMANCE UNDERSTANDING
 
-- Basic Selenium WebDriver automation flow
-- Page Object Model (POM) design pattern
-- TestNG test execution structure
+- Advanced Java syntax and its application in Test Automation
+- Page Object Model (POM) design pattern and framework maintenance
+- TestNG test execution structure and test reporting
+- Core Performance Testing methodologies (Load, Stress, Bottleneck analysis)
 - Basic CI/CD awareness via GitHub Actions
-- Understanding of automation regression testing concept
+- Understanding of automation regression testing concepts
 
 ---
 
 # KEY STRENGTHS
 
 - Strong analytical and logical thinking  
-- Detail-oriented mindset in testing activities  
-- Fast learner with strong self-learning ability  
+- Detail-oriented mindset in functional and performance evaluation  
+- Fast learner with strong self-learning ability (shifting smoothly across tech stacks)  
 - Good teamwork and communication in Agile environment  
-- Interested in improving software quality through testing and automation  
+- Deep interest in improving software quality and scalability through automation and performance monitoring
+- Good command of technical English (Proficient in reading documentation, strong listening, and effective professional communication)
 
 ---
 
@@ -243,8 +261,9 @@ GPA: 7.61 / 10
 
 Continuously improving skills through personal study and practice:
 
-- Test automation with Playwright  
-- API testing fundamentals  
-- Java automation frameworks (advanced structure concepts)  
-- SQL for testing validation  
-- CI/CD concepts with GitHub Actions  
+- Advanced Java automation frameworks (Hybrid/Data-Driven frameworks)
+- Test automation with Playwright (TypeScript/JavaScript approach)  
+- Performance Testing tools advancement (Enhancing JMeter scripting)
+- API testing fundamentals & automated API verification via Postman
+- SQL for testing validation and database assertions  
+- **GitHub Actions** (Core concepts and basic hands-on practice)
