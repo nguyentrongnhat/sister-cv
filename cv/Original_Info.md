@@ -95,7 +95,7 @@ Continuously improving technical skills in test automation, performance evaluati
 
 ### Software Tester Intern
 
-**11/2025 – 05/2026**
+**12/2025 – 06/2026**
 
 ### Responsibilities
 
@@ -120,7 +120,7 @@ Continuously improving technical skills in test automation, performance evaluati
 
 ### Frontend Developer Intern (ReactJS)
 
-**04/2025 – 09/2025**
+**05/2025 – 10/2025**
 
 ### Responsibilities
 
