@@ -11,7 +11,7 @@
 
 # PROFESSIONAL SUMMARY
 
-Dedicated QA Engineer with over **2.5 years of solid experience** in Software Quality Assurance, specializing in both Manual and Automation Testing for complex web applications and e-commerce platforms. 
+Dedicated QA Engineer with **2+ years of hands-on experience** in Software Quality Assurance, specializing in both Manual and Automation Testing for complex web applications and e-commerce platforms, complemented by a solid frontend development foundation. 
 
 Proven track record in designing test strategies, establishing automation frameworks from scratch, and integrating testing into CI/CD pipelines within Agile Scrum environments. Highly proficient in **Java** (Selenium WebDriver, TestNG, POM) and experienced in utilizing modern web technologies (**JavaScript/TypeScript, ReactJS**) to implement Shift-Left testing strategies. Possess hands-on capabilities in API testing, Performance testing (JMeter), and modern automation tools like **Playwright** and **Python**.
 
@@ -39,6 +39,9 @@ Adept at bridging the gap between development and QA teams to ensure high-qualit
 - **API Testing:** Postman (Collections, Environment variables, Automated assertions).
 - **Performance Testing:** Apache JMeter (Thread Groups, Assertions, Throughput & Bottleneck Analysis).
 
+### AI-Assisted Testing
+- Skilled in using AI tools to generate, optimize, and maintain test cases and improve testing efficiency.
+
 ### DevOps, CI/CD & Environment
 - **Version Control:** Git, GitHub.
 - **CI/CD:** GitHub Actions (Automated test execution on Pull Requests).
@@ -52,7 +55,7 @@ Adept at bridging the gap between development and QA teams to ensure high-qualit
 ## AGEST VIETNAM
 
 ### QA Engineer (Manual & Automation)
-**06/2024 – Present** *(~2 years 1 month)*
+**06/2024 – Present** *(2 years+)*
 
 **Responsibilities & Achievements:**
 - Led the end-to-end testing lifecycle for enterprise web applications, collaborating closely with POs and Devs to refine acceptance criteria and prevent defects in the early stages (Shift-Left).
@@ -66,14 +69,14 @@ Adept at bridging the gap between development and QA teams to ensure high-qualit
 
 ## NAM PHUONG DIGITAL TECHNOLOGY
 
-### Software Engineer / QA Tester (ReactJS)
-**09/2023 – 05/2024** *(9 months)*
+### Frontend Developer Intern (ReactJS)
+**12/2023 – 05/2024** *(6 months)*
 
 **Responsibilities & Achievements:**
-- Started as a hybrid Developer/Tester role. Developed responsive UI components using ReactJS, HTML5, and CSS3 while taking ownership of the frontend quality.
-- Implemented unit and integration tests utilizing JavaScript/TypeScript, significantly reducing UI bugs prior to the QA handover phase.
-- Conducted cross-browser compatibility testing and client-side performance optimization, boosting application loading speed by 20%.
-- Gained a deep architectural understanding of RESTful APIs, modern web ecosystems, and DOM manipulation, laying a strong foundation for advanced UI automation.
+- Developed responsive UI components using **ReactJS, HTML5, and CSS3**, gaining first-hand understanding of frontend architecture and common UI defect patterns.
+- Actively participated in debugging and testing phases, identifying and resolving cross-browser compatibility issues and reducing UI-related bugs by **20%** before QA handover.
+- Built a deep working knowledge of **DOM structure, RESTful APIs, and browser developer tools** (Network, Console, Elements) — directly applicable to UI automation and defect root cause analysis.
+- Collaborated with backend developers on API integration, strengthening understanding of request/response workflows critical for API testing.
 
 ---
 
@@ -84,7 +87,7 @@ Adept at bridging the gap between development and QA teams to ensure high-qualit
 **Duration:** 06/2024 – 02/2025  
 **Tech Stack:** Java, Selenium, TestNG, JMeter, GitHub Actions, MySQL.  
 
-**Description:** A high-traffic web-based railway management and booking system featuring dynamic pricing, seat mapping, and integrated payment gateways.
+**Description:** A high-traffic web-based railway management and booking system serving **10,000+ daily active users**, featuring dynamic pricing, real-time seat mapping, and integrated payment gateways.
 
 **Key Contributions:**
 - Designed a comprehensive test strategy covering functional, integration, and performance layers.
@@ -99,7 +102,7 @@ Adept at bridging the gap between development and QA teams to ensure high-qualit
 **Duration:** 03/2025 – Present  
 **Tech Stack:** Playwright (TypeScript), Postman, Python (Data Mocking), Jira.  
 
-**Description:** A scalable e-commerce platform integrating inventory management, cart workflows, and multiple third-party logistics APIs.
+**Description:** A scalable omnichannel e-commerce platform supporting **5,000+ SKUs across 3 sales channels** (Web, Mobile, POS), integrating real-time inventory management, cart workflows, and multiple third-party logistics APIs.
 
 **Key Contributions:**
 - Transitioned the team to modern testing tools by piloting UI automation using **Playwright with TypeScript**, significantly improving test execution speed compared to legacy scripts.

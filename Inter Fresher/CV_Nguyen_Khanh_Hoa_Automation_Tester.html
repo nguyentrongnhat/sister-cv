@@ -32,6 +32,19 @@
             size: A4; 
             margin: 12mm 14mm; 
         }
+
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .cv-container {
+                width: 100%;
+            }
+            section {
+                page-break-inside: avoid;
+            }
+        }
         
         .cv-container { 
             width: 100%; 
@@ -221,6 +234,10 @@
                 <tr>
                     <td>Automation Testing</td>
                     <td><strong>Selenium WebDriver (Java)</strong>, <strong>TestNG</strong> framework, Page Object Model (POM) pattern, Regression automation suite deployment</td>
+                </tr>
+                <tr>
+                    <td>AI-Assisted Testing</td>
+                    <td>Skilled in using <strong>AI tools</strong> to generate, optimize, and maintain test cases and improve testing efficiency</td>
                 </tr>
                 <tr>
                     <td>Programming Base</td>

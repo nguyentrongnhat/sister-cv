@@ -1,15 +1,28 @@
 # NGUYEN KHANH HOA
 
+
+
 ## SOFTWARE TESTER (MANUAL & AUTOMATION - INTERN)
 
+
+
 **Phone:** 0923692870  
+
 **Email:** nguyenkhanhhoa1592@outlook.com  
+
 **LinkedIn:** https://www.linkedin.com/in/nguyenkhanhhoa02  
+
 **Location:** Tan Binh District, Ho Chi Minh City, Vietnam  
+
+
 
 ---
 
+
+
 # PROFESSIONAL SUMMARY
+
+
 
 Software Tester with internship experience in Manual Testing, Automation Testing, and basic Performance Testing for web applications. 
 
@@ -17,9 +30,15 @@ Hands-on experience in requirement analysis, test case design, test execution, a
 
 Continuously improving technical skills in test automation, performance evaluation, API testing, and CI/CD integration through self-learning and personal practice projects.
 
+
+
 ---
 
+
+
 # CORE COMPETENCIES
+
+
 
 - Manual Testing
 - Functional Testing
@@ -33,11 +52,19 @@ Continuously improving technical skills in test automation, performance evaluati
 - Agile Scrum
 - SDLC / STLC
 
+
+
 ---
+
+
 
 # TECHNICAL SKILLS
 
+
+
 ## Experienced In
+
+
 
 ### Programming Languages
 - **Java** (Primary language - Strong proficiency in OOP, core syntax, and automation application)
@@ -55,6 +82,9 @@ Continuously improving technical skills in test automation, performance evaluati
 - TestNG  
 - Page Object Model (POM)  
 - Basic Automation Regression Execution  
+
+### AI-Assisted Testing
+- Skilled in using AI tools to generate, optimize, and maintain test cases and improve testing efficiency
 
 ### Performance Testing (Basic)
 - Performance testing concepts (Load, Stress testing)
@@ -77,7 +107,11 @@ Continuously improving technical skills in test automation, performance evaluati
 ### Project Management
 - Jira  
 
+
+
 ---
+
+
 
 ## Familiar With / Self-Learning
 
@@ -87,9 +121,15 @@ Continuously improving technical skills in test automation, performance evaluati
 - Cross-browser testing concepts
 - Data-driven testing concepts
 
+
+
 ---
 
+
+
 # WORK EXPERIENCE
+
+
 
 ## AGEST VIETNAM
 
@@ -114,7 +154,11 @@ Continuously improving technical skills in test automation, performance evaluati
 - Executed automated regression test suites and reviewed execution results.
 - Conducted basic load tests using Apache JMeter for core web modules to identify potential performance bottlenecks under mock user load.
 
+
+
 ---
+
+
 
 ## NAM PHUONG DIGITAL TECHNOLOGY
 
@@ -131,11 +175,19 @@ Continuously improving technical skills in test automation, performance evaluati
 - Participated in testing, debugging, and client-side performance optimization before deployment.
 - Gained deep understanding of SDLC, web ecosystems, and team-based software development.
 
+
+
 ---
+
+
 
 # FEATURED PROJECTS
 
+
+
 ---
+
+
 
 ## Safe Railway – Railway Ticket Booking System
 
@@ -181,7 +233,11 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 - Identified and flagged response time bottlenecks in the ticket checkout API under baseline multi-user loads.
 - Gained practical experience in both automation and basic performance testing lifecycles.
 
+
+
 ---
+
+
 
 ## Clothes Shop – E-Commerce Website
 
@@ -217,7 +273,11 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 - Detected functional issues before release.
 - Contributed to overall product stability and cross-browser responsiveness.
 
+
+
 ---
+
+
 
 # AUTOMATION & PERFORMANCE UNDERSTANDING
 
@@ -228,7 +288,11 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 - Basic CI/CD awareness via GitHub Actions
 - Understanding of automation regression testing concepts
 
+
+
 ---
+
+
 
 # KEY STRENGTHS
 
@@ -239,7 +303,11 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 - Deep interest in improving software quality and scalability through automation and performance monitoring
 - Good command of technical English (Proficient in reading documentation, strong listening, and effective professional communication)
 
+
+
 ---
+
+
 
 # EDUCATION
 
@@ -248,14 +316,22 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 Bachelor of Software Engineering  
 GPA: 7.61 / 10  
 
+
+
 ---
+
+
 
 # CERTIFICATIONS
 
 - Aptis ESOL B1 (03/2024)  
 - Agile Development & Scrum Framework (10/2023)
 
+
+
 ---
+
+
 
 # SELF LEARNING
 
