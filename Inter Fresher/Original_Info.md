@@ -1,6 +1,6 @@
 # NGUYEN KHANH HOA
 
-## SOFTWARE TESTER INTERN — MANUAL & AUTOMATION TESTING
+## SOFTWARE TESTER — MANUAL & AUTOMATION TESTING
 
 **Phone:** 0923692870
 **Email:** nguyenkhanhhoa1592@outlook.com
@@ -11,9 +11,9 @@
 
 # PROFESSIONAL SUMMARY
 
-Software Tester with internship experience in Manual Testing, Automation Testing, and basic Performance Testing for web applications.
+Software Tester with hands-on experience in Manual Testing, Automation Testing, and basic Performance Testing for web applications, gained through internships in Agile Scrum environments.
 
-Hands-on experience in requirement analysis, test case design, test execution, and defect reporting within Agile Scrum environments. Solid programming foundation in **Java**, applied to automation testing with Selenium WebDriver and TestNG, using the Page Object Model (POM) to improve maintainability of test scripts. Working knowledge of **JavaScript/TypeScript** from frontend development experience, and basic scripting ability in **Python**.
+Experienced in requirement analysis, test case design, test execution, and defect reporting. Solid programming foundation in **Java**, applied to automation testing with Selenium WebDriver and TestNG, using the Page Object Model (POM) to improve maintainability of test scripts. Working knowledge of **JavaScript/TypeScript** from frontend development experience, and basic scripting ability in **Python**.
 
 Continuously building skills in test automation, performance evaluation, API testing, and CI/CD integration through self-learning and personal practice projects.
 
@@ -55,7 +55,7 @@ Continuously building skills in test automation, performance evaluation, API tes
 - TestNG
 - Page Object Model (POM) — applied in framework maintenance and test script organization
 - Basic Automation Regression Execution
-- Basic CI/CD awareness via GitHub Actions
+- Basic CI/CD implementation via GitHub Actions (core concepts, applied hands-on in personal practice projects)
 
 ### AI-Assisted Testing
 - Uses AI tools to generate, optimize, and maintain test cases and improve testing efficiency
@@ -85,7 +85,7 @@ Continuously building skills in test automation, performance evaluation, API tes
 
 - **Python** (Basic scripting & syntax)
 - Playwright
-- **GitHub Actions** (Core concepts, basic hands-on implementation)
+- **GitHub Actions** (Core concepts, basic hands-on implementation applied in personal practice projects)
 - Cross-browser testing concepts
 - Data-driven testing concepts
 
@@ -255,4 +255,4 @@ Continuously improving skills through personal study and practice:
 - Performance Testing tools advancement (Enhancing JMeter scripting)
 - API testing fundamentals & automated API verification via Postman
 - SQL for testing validation and database assertions
-- GitHub Actions (Core concepts and basic hands-on practice)
+- GitHub Actions (Core concepts and basic hands-on practice, applied in personal practice projects)
