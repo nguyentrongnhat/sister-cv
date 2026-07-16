@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Nguyen_Khanh_Hoa_Software_Tester</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2b6cb0;
+            --accent-color: #0d9488;
+            --text-color: #2d3748;
+            --light-text: #4a5568;
+            --border-color: #cbd5e0;
+            --bg-light: #f8fafc;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: var(--text-color);
+            line-height: 1.45;
+            font-size: 9.5pt;
+            background-color: #ffffff;
+        }
+
+        @page {
+            size: A4;
+            margin: 12mm 14mm;
+        }
+
+        html, body {
+            height: auto;
+        }
+
+        @media print {
+            html, body {
+                width: 210mm;
+                height: auto;
+            }
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .cv-container {
+                width: 100%;
+                max-width: none;
+            }
+
+            /* Tránh mọi khối bị cắt ngang khi sang trang mới */
+            section,
+            .item-block,
+            .table-row-full,
+            .project-details,
+            .skills-table tr,
+            .education-zone,
+            header {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Không để tiêu đề mục bị mồ côi ở cuối trang, tách rời nội dung bên dưới */
+            h1, h2, h3 {
+                page-break-after: avoid;
+                break-after: avoid;
+            }
+
+            /* Không để 1-2 dòng bị lẻ lại đầu/cuối trang */
+            p, li {
+                orphans: 3;
+                widows: 3;
+            }
+
+            ul {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            a {
+                color: inherit !important;
+                text-decoration: none !important;
+            }
+        }
+
+        .cv-container {
+            width: 100%;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 12px;
+            border-bottom: 2.5px solid var(--primary-color);
+            padding-bottom: 8px;
+            position: relative;
+        }
+
+        header::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--accent-color);
+            margin: 6px auto 0;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 21pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 3px;
+        }
+
+        .job-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--secondary-color);
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 4px 10px;
+            font-size: 9pt;
+            color: var(--light-text);
+        }
+        .contact-row span {
+            white-space: nowrap;
+        }
+        .contact-row .divider {
+            color: var(--border-color);
+        }
+        .contact-row a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        .contact-row a:hover {
+            color: var(--secondary-color);
+        }
+
+        section {
+            margin-bottom: 11px;
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 11pt;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid var(--secondary-color);
+            padding-bottom: 2px;
+            margin-bottom: 7px;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-color);
+            border-radius: 50%;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 4px;
+            color: var(--text-color);
+        }
+
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 4px;
+        }
+        .skills-table td {
+            padding: 5px 7px;
+            vertical-align: top;
+            border: 1px solid var(--border-color);
+            font-size: 9pt;
+        }
+        .skills-table tr td:first-child {
+            width: 23%;
+            font-weight: 700;
+            background-color: #f7fafc;
+            color: var(--primary-color);
+        }
+        .skills-table tr:nth-child(even) td:last-child {
+            background-color: #fbfdff;
+        }
+
+        .item-block {
+            margin-bottom: 9px;
+        }
+
+        .table-row-full {
+            width: 100%;
+            display: table;
+            margin-bottom: 1px;
+        }
+        .cell-left {
+            display: table-cell;
+            text-align: left;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        .cell-right {
+            display: table-cell;
+            text-align: right;
+            font-weight: 700;
+            color: var(--text-color);
+        }
+        .cell-sub-left {
+            display: table-cell;
+            text-align: left;
+            font-style: italic;
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+        .cell-sub-right {
+            display: table-cell;
+            text-align: right;
+            font-style: italic;
+            color: var(--light-text);
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 16px;
+            margin-bottom: 2px;
+        }
+        li {
+            margin-bottom: 2px;
+            text-align: justify;
+            font-size: 9pt;
+        }
+        li::marker {
+            color: var(--accent-color);
+        }
+
+        .project-details {
+            margin: 3px 0;
+            font-size: 9pt;
+            background-color: var(--bg-light);
+            padding: 4px 6px;
+            border: 1px dashed var(--border-color);
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .education-zone {
+            line-height: 1.5;
+            font-size: 9.5pt;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .tag {
+            display: inline-block;
+            background: #eef4fb;
+            color: var(--secondary-color);
+            border: 1px solid #d3e3f5;
+            border-radius: 3px;
+            padding: 1px 6px;
+            font-size: 8.3pt;
+            font-weight: 600;
+            margin: 1px 2px 1px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <header>
+            <h1>Nguyen Khanh Hoa</h1>
+            <div class="job-title">Software Tester | Manual &amp; Automation Testing</div>
+
+            <div class="contact-row">
+                <span><strong>Phone:</strong> +84 923 692 870</span>
+                <span class="divider">|</span>
+                <span><strong>Email:</strong> <a href="mailto:nguyenkhanhhoa1592@outlook.com">nguyenkhanhhoa1592@outlook.com</a></span>
+                <span class="divider">|</span>
+                <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nguyenkhanhhoa02" target="_blank">linkedin.com/in/nguyenkhanhhoa02</a></span>
+                <span class="divider">|</span>
+                <span><strong>GitHub:</strong> <a href="https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003" target="_blank">github.com/NguyenKhanhHoa6235</a></span>
+                <span class="divider">|</span>
+                <span><strong>Location:</strong> Tan Binh District, HCMC, Vietnam</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                <span class="highlight">Software Tester</span> with about a year of hands-on experience across <span class="highlight">manual</span> and <span class="highlight">automation testing</span> for web applications, built through internships in Agile teams. I like getting into the requirements early, writing test cases that actually catch real issues, and staying close to developers as defects get tracked down and fixed.
+            </p>
+            <p>
+                My programming background is in <strong>Java</strong>, which I use for automation with <strong>Selenium WebDriver</strong> and <strong>TestNG</strong>, structuring scripts with the Page Object Model to keep them easy to maintain. I also have working knowledge of <strong>JavaScript/TypeScript</strong> from frontend development, plus basic <strong>Python</strong> for scripting. Outside of day-to-day work, I keep building on automation, performance testing, API testing, and CI/CD through self-study and personal projects.
+            </p>
+        </section>
+
+        <section>
+            <h2>Technical Competencies</h2>
+            <table class="skills-table">
+                <tr>
+                    <td>Automation Testing</td>
+                    <td><strong>Selenium WebDriver (Java)</strong>, <strong>TestNG</strong> framework, Page Object Model (POM) pattern, basic automation regression execution</td>
+                </tr>
+                <tr>
+                    <td>AI-Assisted Testing</td>
+                    <td>Uses <strong>AI tools</strong> to generate, optimize, and maintain test cases and improve testing efficiency</td>
+                </tr>
+                <tr>
+                    <td>Programming Base</td>
+                    <td><strong>Java</strong> (Good working knowledge - OOP fundamentals, core syntax), <strong>JavaScript / TypeScript</strong> (Working knowledge - core concepts, DOM manipulation), <strong>Python</strong> (Basic scripting &amp; syntax, self-learning)</td>
+                </tr>
+                <tr>
+                    <td>Manual &amp; Performance</td>
+                    <td>Requirement Analysis, Test Case Design, Test Design Techniques (Boundary Value Analysis, Equivalence Partitioning), Defect Logging, Functional / Smoke / Regression / Exploratory testing. Basic load and stress execution via <strong>Apache JMeter</strong></td>
+                </tr>
+                <tr>
+                    <td>API &amp; Databases</td>
+                    <td><strong>Postman</strong> (Basic API verification), MySQL / PostgreSQL / SQL Server (Basic SQL queries for data verification)</td>
+                </tr>
+                <tr>
+                    <td>Tools &amp; Version Control</td>
+                    <td><strong>Jira</strong> (Issue &amp; bug management), <strong>Git / GitHub</strong> (Version control)</td>
+                </tr>
+                <tr>
+                    <td>Methodologies &amp; CI/CD</td>
+                    <td>Agile Scrum, SDLC / STLC processes, basic CI/CD implementation via <strong>GitHub Actions</strong> - core concepts applied hands-on in personal practice projects</td>
+                </tr>
+                <tr>
+                    <td>Familiar With</td>
+                    <td>Playwright, cross-browser testing concepts, data-driven testing concepts</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+
+            <div class="item-block">
+                <div class="table-row-full">
+                    <div class="cell-left">AGEST VIETNAM</div>
+                    <div class="cell-right">12/2025 - 06/2026</div>
+                </div>
+                <div class="table-row-full">
+                    <div class="cell-sub-left">Software Tester Intern</div>
+                    <div class="cell-sub-right">Ho Chi Minh City, Vietnam</div>
+                </div>
+                <ul>
+                    <li>Sat in on requirement analysis sessions with QA and dev teams to get a clear picture of what needed testing.</li>
+                    <li>Wrote test cases from functional requirements and user stories, and prepared the test data to go with them.</li>
+                    <li>Ran manual test cases on web application features before each release.</li>
+                    <li>Logged and tracked defects in <strong>Jira</strong>, working with developers to confirm fixes and re-test through regression.</li>
+                    <li><strong>Automation &amp; Performance:</strong> Kept the team's Selenium/Java automation scripts organized following the Page Object Model, ran the regression suites, and used Apache JMeter for basic load testing to catch performance bottlenecks early.</li>
+                    <li>Joined regular Agile ceremonies - sprint planning, daily stand-ups, sprint reviews.</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <div class="table-row-full">
+                    <div class="cell-left">NAM PHUONG DIGITAL TECHNOLOGY</div>
+                    <div class="cell-right">05/2025 - 10/2025</div>
+                </div>
+                <div class="table-row-full">
+                    <div class="cell-sub-left">Frontend Developer Intern (ReactJS)</div>
+                    <div class="cell-sub-right">Ho Chi Minh City, Vietnam</div>
+                </div>
+                <ul>
+                    <li>Built responsive UI components with <strong>ReactJS, HTML5, and CSS3</strong>, and hooked them up to RESTful APIs using JavaScript/TypeScript.</li>
+                    <li>Tracked down and fixed UI bugs, including cross-browser compatibility issues.</li>
+                    <li>Worked alongside backend developers throughout feature development, testing and debugging along the way.</li>
+                    <li>Picked up a solid feel for SDLC and how a real product team works day to day.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+
+            <div class="item-block">
+                <div class="table-row-full">
+                    <div class="cell-left">Safe Railway - Railway Ticket Booking System</div>
+                    <div class="cell-right">12/2025 - 02/2026</div>
+                </div>
+                <div class="table-row-full">
+                    <div class="cell-sub-left">Automation &amp; Performance QA Intern</div>
+                    <div class="cell-sub-right">Team Size: 7</div>
+                </div>
+                <p style="font-size: 8.5pt; color: var(--light-text); font-style: italic; margin-bottom: 4px;">Practical training project completed during the AGEST Software Tester Internship</p>
+                <div class="project-details">
+                    <strong>Tech Stack:</strong>
+                    <span class="tag">Java</span><span class="tag">Selenium WebDriver</span><span class="tag">TestNG</span><span class="tag">Apache JMeter</span><span class="tag">Git / GitHub</span>
+                    <br><strong>Code Repository:</strong> <a href="https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003" target="_blank" style="color: var(--secondary-color);">github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003</a>
+                </div>
+                <ul>
+                    <li>Wrote Selenium automation scripts in Java covering the core booking flow - login, search, and booking.</li>
+                    <li>Structured the framework with the Page Object Model to keep test code maintainable and reusable, and ran automated regression tests with TestNG.</li>
+                    <li>Set up basic JMeter load tests to check page response times under high-volume booking simulation.</li>
+                    <li>Logged functional and performance defects with clear repro steps and environment logs, and kept the codebase organized in Git and GitHub.</li>
+                    <li><strong>Outcome:</strong> Cut down manual regression effort significantly by automating the core flows, and caught a real response-time bottleneck in the ticket checkout API under baseline multi-user load.</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <div class="table-row-full">
+                    <div class="cell-left">Clothes Shop - E-Commerce Website</div>
+                    <div class="cell-right">03/2026 - 06/2026</div>
+                </div>
+                <div class="table-row-full">
+                    <div class="cell-sub-left">Manual Tester Intern</div>
+                    <div class="cell-sub-right">Team Size: 7</div>
+                </div>
+                <p style="font-size: 8.5pt; color: var(--light-text); font-style: italic; margin-bottom: 4px;">Practical training project completed during the AGEST Software Tester Internship</p>
+                <div class="project-details">
+                    <strong>Activities:</strong>
+                    <span class="tag">Requirement Analysis</span><span class="tag">Test Case Design</span><span class="tag">Manual / Exploratory / Regression Testing</span><span class="tag">Bug Reporting via Jira</span>
+                </div>
+                <ul>
+                    <li>Turned user stories into test cases covering the core business features - cart management and checkout.</li>
+                    <li>Ran manual tests on those flows, plus exploratory testing to poke at edge cases and unexpected behavior.</li>
+                    <li>Reported bugs with enough detail that developers could reproduce them right away, and re-verified fixes through regression testing.</li>
+                    <li>Sat in on test review sessions with the team to compare notes and catch anything missed.</li>
+                    <li><strong>Outcome:</strong> Improved test coverage on the flows that mattered most, caught several critical and high-severity bugs before release, and helped the site hold up better across browsers.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section style="page-break-inside: avoid;">
+            <h2>Key Strengths</h2>
+            <ul>
+                <li>Genuinely curious about the "why" behind a bug, not just the "what" - strong analytical thinking.</li>
+                <li>Detail-oriented, especially when it comes to functional and performance evaluation.</li>
+                <li>Picks up new tools and stacks quickly, comfortable being the newest person on unfamiliar tech.</li>
+                <li>Works well in Agile teams and communicates clearly with both QA and developers.</li>
+                <li>Cares about product quality and scalability, not just checking test cases off a list.</li>
+                <li>Comfortable reading technical documentation and communicating in English.</li>
+            </ul>
+        </section>
+
+        <section style="page-break-inside: avoid;">
+            <h2>Education &amp; Certifications</h2>
+            <div class="education-zone">
+                <strong>TON DUC THANG UNIVERSITY</strong> - Bachelor of Software Engineering | <strong>GPA: 7.61 / 10</strong> | Graduated: <strong>04/2026</strong><br>
+                &bull; Certification: <strong>Agile Development &amp; Scrum Framework</strong> (10/2023)<br>
+                &bull; English Language: <strong>Aptis ESOL B1</strong> (03/2024)
+            </div>
+        </section>
+
+        <section style="page-break-inside: avoid;">
+            <h2>Familiar With / Currently Building</h2>
+            <ul>
+                <li><strong>Python</strong> (Basic scripting &amp; syntax), <strong>Playwright</strong> (practicing automated web flows, TypeScript/JavaScript approach)</li>
+                <li><strong>GitHub Actions</strong> - core concepts and hands-on CI/CD practice, applied in personal practice projects</li>
+                <li>Advanced Java automation frameworks (Hybrid / Data-Driven structure)</li>
+                <li>Cross-browser testing concepts and data-driven testing concepts</li>
+                <li>SQL for test validation and database assertions</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

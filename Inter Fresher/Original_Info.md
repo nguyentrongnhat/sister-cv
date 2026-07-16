@@ -1,21 +1,22 @@
 # NGUYEN KHANH HOA
 
-## SOFTWARE TESTER — MANUAL & AUTOMATION TESTING
+## SOFTWARE TESTER | MANUAL & AUTOMATION TESTING
 
-**Phone:** 0923692870
+**Phone:** +84 923 692 870
 **Email:** nguyenkhanhhoa1592@outlook.com
 **LinkedIn:** https://www.linkedin.com/in/nguyenkhanhhoa02
+**GitHub:** https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003
 **Location:** Tan Binh District, Ho Chi Minh City, Vietnam
 
 ---
 
 # PROFESSIONAL SUMMARY
 
-Software Tester with hands-on experience in Manual Testing, Automation Testing, and basic Performance Testing for web applications, gained through internships in Agile Scrum environments.
+Software Tester with about a year of hands-on experience across manual and automation testing for web applications, built through internships in Agile teams. I like getting into the requirements early, writing test cases that actually catch real issues, and staying close to developers as defects get tracked down and fixed.
 
-Experienced in requirement analysis, test case design, test execution, and defect reporting. Solid programming foundation in **Java**, applied to automation testing with Selenium WebDriver and TestNG, using the Page Object Model (POM) to improve maintainability of test scripts. Working knowledge of **JavaScript/TypeScript** from frontend development experience, and basic scripting ability in **Python**.
+My programming background is in Java, which I use for automation with Selenium WebDriver and TestNG, structuring scripts with the Page Object Model to keep them easy to maintain. I also have working knowledge of JavaScript/TypeScript from frontend development, plus basic Python for scripting.
 
-Continuously building skills in test automation, performance evaluation, API testing, and CI/CD integration through self-learning and personal practice projects.
+Outside of day-to-day work, I keep building on automation, performance testing, API testing, and CI/CD through self-study and personal projects.
 
 ---
 
@@ -29,6 +30,7 @@ Continuously building skills in test automation, performance evaluation, API tes
 - Basic Performance Testing
 - Requirement Analysis
 - Test Case Design
+- Test Design Techniques (Boundary Value Analysis, Equivalence Partitioning)
 - Defect Reporting
 - Agile Scrum
 - SDLC / STLC
@@ -40,8 +42,8 @@ Continuously building skills in test automation, performance evaluation, API tes
 ## Experienced In
 
 ### Programming Languages
-- **Java** (Good working knowledge — OOP fundamentals, core syntax, applied to test automation)
-- **JavaScript / TypeScript** (Working knowledge — core concepts, DOM manipulation, frontend logic)
+- **Java** (Good working knowledge - OOP fundamentals, core syntax, applied to test automation)
+- **JavaScript / TypeScript** (Working knowledge - core concepts, DOM manipulation, frontend logic)
 
 ### Manual Testing
 - Requirement Analysis
@@ -53,7 +55,7 @@ Continuously building skills in test automation, performance evaluation, API tes
 ### Automation Testing
 - Selenium WebDriver (Java)
 - TestNG
-- Page Object Model (POM) — applied in framework maintenance and test script organization
+- Page Object Model (POM) - applied in framework maintenance and test script organization
 - Basic Automation Regression Execution
 - Basic CI/CD implementation via GitHub Actions (core concepts, applied hands-on in personal practice projects)
 
@@ -81,13 +83,15 @@ Continuously building skills in test automation, performance evaluation, API tes
 ### Project Management
 - Jira
 
-## Familiar With / Self-Learning
+## Familiar With / Currently Building
 
 - **Python** (Basic scripting & syntax)
-- Playwright
-- **GitHub Actions** (Core concepts, basic hands-on implementation applied in personal practice projects)
+- **Playwright** (Practicing automated web flows, TypeScript/JavaScript approach)
+- **GitHub Actions** (Core concepts and hands-on CI/CD practice, applied in personal practice projects)
+- Advanced Java automation frameworks (Hybrid / Data-Driven structure)
 - Cross-browser testing concepts
 - Data-driven testing concepts
+- SQL for test validation and database assertions
 
 ---
 
@@ -96,40 +100,38 @@ Continuously building skills in test automation, performance evaluation, API tes
 ## AGEST VIETNAM
 
 ### Software Tester Intern
-**12/2025 – 06/2026**
+**12/2025 - 06/2026**
 
 ### Responsibilities
 
-- Participated in requirement analysis sessions with QA and development teams to understand testing scope.
-- Designed test cases based on functional requirements and user stories.
-- Prepared test data for functional, regression, and basic performance testing.
-- Executed manual test cases for web application features before release.
-- Reported and tracked defects using internal tracking tools (Jira).
-- Collaborated with developers to verify bug fixes and perform regression testing.
-- Participated in Agile ceremonies including Sprint Planning, Daily Stand-up, and Sprint Review.
-- Assisted in maintaining automation test scripts using Selenium WebDriver with Java.
+- Sat in on requirement analysis sessions with QA and dev teams to get a clear picture of what needed testing.
+- Wrote test cases from functional requirements and user stories, and prepared the test data to go with them.
+- Ran manual test cases on web application features before each release.
+- Logged and tracked defects in Jira, working with developers to confirm fixes and re-test through regression.
+- Joined regular Agile ceremonies - sprint planning, daily stand-ups, sprint reviews.
+- Helped maintain the team's Selenium automation scripts in Java.
 
 ### Automation & Performance Contribution
 
-- Supported creation and maintenance of Selenium automation scripts in Java following Page Object Model structure.
-- Executed automated regression test suites and reviewed execution results.
-- Conducted basic load tests using Apache JMeter for core web modules to identify potential performance bottlenecks under mock user load.
+- Kept the Selenium/Java automation scripts organized and up to date, following the Page Object Model structure.
+- Ran the automated regression suites and reviewed the results.
+- Used Apache JMeter for basic load testing on core web modules to catch performance bottlenecks early, under simulated user load.
 
 ---
 
 ## NAM PHUONG DIGITAL TECHNOLOGY
 
 ### Frontend Developer Intern (ReactJS)
-**05/2025 – 10/2025**
+**05/2025 - 10/2025**
 
 ### Responsibilities
 
-- Developed responsive UI components using ReactJS, HTML5, and CSS3.
-- Integrated frontend features with RESTful APIs using JavaScript / TypeScript.
-- Fixed UI bugs and improved cross-browser compatibility.
-- Collaborated with backend developers during feature development.
-- Participated in testing, debugging, and client-side performance optimization before deployment.
-- Gained practical understanding of SDLC, web ecosystems, and team-based software development.
+- Built responsive UI components with ReactJS, HTML5, and CSS3.
+- Hooked up frontend features to RESTful APIs using JavaScript/TypeScript.
+- Tracked down and fixed UI bugs, including cross-browser compatibility issues.
+- Worked alongside backend developers throughout feature development.
+- Took part in testing, debugging, and client-side performance tuning before each deployment.
+- Picked up a solid feel for SDLC and how a real product team works day to day.
 
 ---
 
@@ -137,11 +139,12 @@ Continuously building skills in test automation, performance evaluation, API tes
 
 ---
 
-## Safe Railway – Railway Ticket Booking System
+## Safe Railway - Railway Ticket Booking System
 
 **Role:** Automation & Performance QA Intern
-**Duration:** 12/2025 – 02/2026
+**Duration:** 12/2025 - 02/2026
 **Team Size:** 7
+**Context:** Practical training project completed during the AGEST Software Tester Internship
 
 ### Description
 
@@ -155,6 +158,8 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 - Apache JMeter (Basic Performance)
 - Git / GitHub
 
+**Code Repository:** https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003
+
 ### Testing Activities
 
 - Requirement analysis
@@ -167,27 +172,27 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 
 ### Responsibilities
 
-- Developed automation test scripts using Selenium WebDriver with Java, covering core booking flows.
-- Applied Page Object Model (POM) structure for organizing test code and improving reusability.
-- Automated core user flows including Login, Search, and Booking.
-- Executed automated regression test cases using TestNG.
-- Set up basic load test threads in Apache JMeter to measure page response times during high-volume booking simulation.
-- Reported functional and performance defects with clear reproduction steps and environment logs.
-- Maintained source code using Git and GitHub.
+- Wrote Selenium automation scripts in Java covering the core booking flow - login, search, and booking.
+- Structured the framework with the Page Object Model to keep test code maintainable and reusable.
+- Ran automated regression tests with TestNG.
+- Set up basic JMeter load tests to check page response times under high-volume booking simulation.
+- Logged functional and performance defects with clear repro steps and environment logs.
+- Kept the codebase organized in Git and GitHub.
 
 ### Outcome
 
-- Reduced manual regression testing effort through Java automation coverage of core flows.
-- Identified response time bottlenecks in the ticket checkout API under baseline multi-user load.
-- Gained practical experience across both automation and basic performance testing lifecycles.
+- Cut down manual regression effort significantly by automating the core flows.
+- Caught a real response-time bottleneck in the ticket checkout API under baseline multi-user load.
+- Got hands-on experience spanning both automation and basic performance testing.
 
 ---
 
-## Clothes Shop – E-Commerce Website
+## Clothes Shop - E-Commerce Website
 
 **Role:** Manual Tester Intern
-**Duration:** 03/2026 – 06/2026
+**Duration:** 03/2026 - 06/2026
 **Team Size:** 7
+**Context:** Practical training project completed during the AGEST Software Tester Internship
 
 ### Description
 
@@ -204,29 +209,28 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 
 ### Responsibilities
 
-- Analyzed requirements and created test cases based on user stories.
-- Executed manual test cases for core business features (Cart Management, Checkout Flow).
-- Performed exploratory testing to identify edge cases and unexpected system behaviors.
-- Reported and tracked bugs with detailed reproduction steps.
-- Participated in test review sessions with team members.
-- Verified bug fixes through regression testing.
+- Turned user stories into test cases covering the core business features - cart management and checkout.
+- Ran manual tests on those flows, plus exploratory testing to poke at edge cases and unexpected behavior.
+- Reported bugs with enough detail that developers could reproduce them right away.
+- Re-verified fixes through regression testing.
+- Sat in on test review sessions with the team to compare notes and catch anything missed.
 
 ### Outcome
 
-- Increased test coverage for critical user flows (Cart, Checkout).
-- Detected functional issues before release, including several critical/high-severity bugs.
-- Contributed to overall product stability and cross-browser responsiveness.
+- Improved test coverage on the flows that mattered most - cart and checkout.
+- Caught several critical and high-severity bugs before release.
+- Helped the site hold up better across browsers and stay stable overall.
 
 ---
 
 # KEY STRENGTHS
 
-- Strong analytical and logical thinking
-- Detail-oriented mindset in functional and performance evaluation
-- Fast learner with strong self-learning ability, comfortable shifting across tech stacks
-- Good teamwork and communication in Agile environments
-- Strong interest in software quality and scalability through automation and performance monitoring
-- Good command of technical English (reading documentation, listening comprehension, and professional communication)
+- Genuinely curious about the "why" behind a bug, not just the "what" - strong analytical thinking
+- Detail-oriented, especially when it comes to functional and performance evaluation
+- Picks up new tools and stacks quickly, comfortable being the newest person on unfamiliar tech
+- Works well in Agile teams and communicates clearly with both QA and developers
+- Cares about product quality and scalability, not just checking test cases off a list
+- Comfortable reading technical documentation and communicating in English
 
 ---
 
@@ -243,16 +247,3 @@ GPA: 7.61 / 10
 
 - Aptis ESOL B1 (03/2024)
 - Agile Development & Scrum Framework (10/2023)
-
----
-
-# SELF LEARNING
-
-Continuously improving skills through personal study and practice:
-
-- Advanced Java automation frameworks (Hybrid/Data-Driven frameworks)
-- Test automation with Playwright (TypeScript/JavaScript approach)
-- Performance Testing tools advancement (Enhancing JMeter scripting)
-- API testing fundamentals & automated API verification via Postman
-- SQL for testing validation and database assertions
-- GitHub Actions (Core concepts and basic hands-on practice, applied in personal practice projects)
