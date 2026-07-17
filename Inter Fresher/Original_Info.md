@@ -5,14 +5,14 @@
 **Phone:** +84 923 692 870
 **Email:** nguyenkhanhhoa1592@outlook.com
 **LinkedIn:** https://www.linkedin.com/in/nguyenkhanhhoa02
-**GitHub:** https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003
+**GitHub:** https://github.com/NguyenKhanhHoa6235
 **Location:** Tan Binh District, Ho Chi Minh City, Vietnam
 
 ---
 
 # PROFESSIONAL SUMMARY
 
-Software Tester with about a year of hands-on experience across manual and automation testing for web applications, built through internships in Agile teams. I like getting into the requirements early, writing test cases that actually catch real issues, and staying close to developers as defects get tracked down and fixed.
+Software Tester with close to a year of internship experience spanning frontend development and software testing for web applications, gained while working in Agile teams. I like getting into the requirements early, writing test cases that actually catch real issues, and staying close to developers as defects get tracked down and fixed.
 
 My programming background is in Java, which I use for automation with Selenium WebDriver and TestNG, structuring scripts with the Page Object Model to keep them easy to maintain. I also have working knowledge of JavaScript/TypeScript from frontend development, plus basic Python for scripting.
 
@@ -56,38 +56,35 @@ Outside of day-to-day work, I keep building on automation, performance testing, 
 - Selenium WebDriver (Java)
 - TestNG
 - Page Object Model (POM) - applied in framework maintenance and test script organization
-- Basic Automation Regression Execution
-- Basic CI/CD implementation via GitHub Actions (core concepts, applied hands-on in personal practice projects)
+- Automation regression execution
+- Entry-level CI/CD setup via GitHub Actions (core concepts, applied hands-on in personal practice projects)
 
 ### AI-Assisted Testing
-- Uses AI tools to generate, optimize, and maintain test cases and improve testing efficiency
+- Uses AI tools to help draft and refine test cases, saving time on repetitive parts of the job
 
-### Performance Testing (Basic)
+### Performance Testing (Entry Level)
 - Performance testing concepts (Load, Stress testing, Bottleneck analysis)
-- Basic scripting and execution with Apache JMeter
+- Scripting and running basic load tests with Apache JMeter
 - Analyzing basic metrics (Response Time, Throughput, Error Rate)
 
 ### API Testing
-- Postman (Basic usage & API verification)
-
-### Languages
-- **English**: Intermediate level (Strong reading & listening comprehension, comfortable with technical documentation; Intermediate speaking skills)
+- Postman (fundamental usage for API verification)
 
 ### Version Control
 - Git
 - GitHub
 
 ### Databases
-- MySQL / PostgreSQL / SQL Server (Basic SQL queries for data verification)
+- MySQL / PostgreSQL / SQL Server (basic SQL queries for data verification)
 
 ### Project Management
 - Jira
 
 ## Familiar With / Currently Building
 
-- **Python** (Basic scripting & syntax)
-- **Playwright** (Practicing automated web flows, TypeScript/JavaScript approach)
-- **GitHub Actions** (Core concepts and hands-on CI/CD practice, applied in personal practice projects)
+- **Python** (basic scripting & syntax)
+- **Playwright** (practicing automated web flows, TypeScript/JavaScript approach)
+- **GitHub Actions** (core concepts and hands-on CI/CD practice, applied in personal practice projects)
 - Advanced Java automation frameworks (Hybrid / Data-Driven structure)
 - Cross-browser testing concepts
 - Data-driven testing concepts
@@ -109,13 +106,12 @@ Outside of day-to-day work, I keep building on automation, performance testing, 
 - Ran manual test cases on web application features before each release.
 - Logged and tracked defects in Jira, working with developers to confirm fixes and re-test through regression.
 - Joined regular Agile ceremonies - sprint planning, daily stand-ups, sprint reviews.
-- Helped maintain the team's Selenium automation scripts in Java.
 
 ### Automation & Performance Contribution
 
-- Kept the Selenium/Java automation scripts organized and up to date, following the Page Object Model structure.
+- Helped maintain the team's Selenium/Java automation scripts, keeping them organized and up to date under the Page Object Model structure.
 - Ran the automated regression suites and reviewed the results.
-- Used Apache JMeter for basic load testing on core web modules to catch performance bottlenecks early, under simulated user load.
+- Used Apache JMeter for basic load testing on core web modules to catch performance bottlenecks early under simulated user load.
 
 ---
 
@@ -155,7 +151,7 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 - Java
 - Selenium WebDriver
 - TestNG
-- Apache JMeter (Basic Performance)
+- Apache JMeter (basic performance testing)
 - Git / GitHub
 
 **Code Repository:** https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003
@@ -181,7 +177,7 @@ Web-based railway ticket booking system allowing users to search trains, book ti
 
 ### Outcome
 
-- Cut down manual regression effort significantly by automating the core flows.
+- Reduced repetitive manual regression work by automating the core booking flows.
 - Caught a real response-time bottleneck in the ticket checkout API under baseline multi-user load.
 - Got hands-on experience spanning both automation and basic performance testing.
 
@@ -219,17 +215,17 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 
 - Improved test coverage on the flows that mattered most - cart and checkout.
 - Caught several critical and high-severity bugs before release.
-- Helped the site hold up better across browsers and stay stable overall.
+- Helped catch cross-browser issues that could have affected stability after release.
 
 ---
 
 # KEY STRENGTHS
 
-- Genuinely curious about the "why" behind a bug, not just the "what" - strong analytical thinking
+- Genuinely curious about the "why" behind a bug, not just the "what"
 - Detail-oriented, especially when it comes to functional and performance evaluation
 - Picks up new tools and stacks quickly, comfortable being the newest person on unfamiliar tech
 - Works well in Agile teams and communicates clearly with both QA and developers
-- Cares about product quality and scalability, not just checking test cases off a list
+- Cares about product quality, not just checking test cases off a list
 - Comfortable reading technical documentation and communicating in English
 
 ---
@@ -239,7 +235,14 @@ E-commerce website allowing users to browse products, manage cart, and complete 
 ## TON DUC THANG UNIVERSITY
 
 Bachelor of Software Engineering
+Graduated: 04/2026
 GPA: 7.61 / 10
+
+---
+
+# LANGUAGES
+
+- **English**: Intermediate level (strong reading & listening comprehension, comfortable with technical documentation; intermediate speaking skills)
 
 ---
 
