@@ -22,16 +22,16 @@
         }
 
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: Arial, 'Helvetica Neue', sans-serif;
             color: var(--text-color);
-            line-height: 1.42;
-            font-size: 9.3pt;
+            line-height: 1.4;
+            font-size: 10.5pt;
             background-color: #ffffff;
         }
 
         @page {
             size: A4;
-            margin: 11mm 14mm;
+            margin: 12mm 15mm;
         }
 
         html, body {
@@ -53,7 +53,6 @@
             }
 
             /* Avoid any block being cut across a page break */
-            section,
             .item-block,
             .table-row-full,
             .project-details,
@@ -133,7 +132,7 @@
             justify-content: center;
             align-items: center;
             gap: 4px 10px;
-            font-size: 9pt;
+            font-size: 10pt;
             color: var(--light-text);
         }
         .contact-row span {
@@ -152,12 +151,11 @@
 
         section {
             margin-bottom: 10px;
-            page-break-inside: avoid;
         }
 
         h2 {
             color: var(--primary-color);
-            font-size: 11pt;
+            font-size: 12pt;
             text-transform: uppercase;
             border-bottom: 1.5px solid var(--secondary-color);
             padding-bottom: 2px;
@@ -178,7 +176,7 @@
         }
 
         p {
-            text-align: justify;
+            text-align: left;
             margin-bottom: 4px;
             color: var(--text-color);
         }
@@ -192,7 +190,7 @@
             padding: 5px 7px;
             vertical-align: top;
             border: 1px solid var(--border-color);
-            font-size: 8.8pt;
+            font-size: 10pt;
         }
         .skills-table tr td:first-child {
             width: 22%;
@@ -246,8 +244,8 @@
         }
         li {
             margin-bottom: 2px;
-            text-align: justify;
-            font-size: 8.8pt;
+            text-align: left;
+            font-size: 10.3pt;
         }
         li::marker {
             color: var(--accent-color);
@@ -255,7 +253,7 @@
 
         .project-details {
             margin: 3px 0;
-            font-size: 8.8pt;
+            font-size: 9.8pt;
             background-color: var(--bg-light);
             padding: 4px 6px;
             border: 1px dashed var(--border-color);
@@ -263,7 +261,7 @@
         }
 
         .project-note {
-            font-size: 8.3pt;
+            font-size: 9.3pt;
             color: var(--light-text);
             font-style: italic;
             margin-bottom: 4px;
@@ -271,7 +269,7 @@
 
         .education-zone {
             line-height: 1.5;
-            font-size: 9.3pt;
+            font-size: 10.3pt;
         }
 
         .highlight {
@@ -286,7 +284,7 @@
             border: 1px solid #d3e3f5;
             border-radius: 3px;
             padding: 1px 6px;
-            font-size: 8.1pt;
+            font-size: 9pt;
             font-weight: 600;
             margin: 1px 2px 1px 0;
         }
@@ -298,161 +296,102 @@
         <header>
             <h1>Nguyen Khanh Hoa</h1>
             <div class="job-title">QA Engineer | Manual &amp; Automation Testing</div>
-
             <div class="contact-row">
                 <span><strong>Phone:</strong> +84 923 692 870</span>
                 <span class="divider">|</span>
                 <span><strong>Email:</strong> <a href="mailto:nguyenkhanhhoa1592@outlook.com">nguyenkhanhhoa1592@outlook.com</a></span>
-                <span class="divider">|</span>
+                <span style="flex-basis:100%;height:0"></span>
                 <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nguyenkhanhhoa02" target="_blank">linkedin.com/in/nguyenkhanhhoa02</a></span>
                 <span class="divider">|</span>
-                <span><strong>Location:</strong> Tan Binh District, HCMC, Vietnam</span>
+                <span><strong>Location:</strong> Tan Binh District, Ho Chi Minh City, Vietnam</span>
             </div>
         </header>
 
         <section>
             <h2>Professional Summary</h2>
             <p>
-                <span class="highlight">QA Engineer</span> with over 2 years of hands-on experience in software quality assurance, covering both <span class="highlight">manual</span> and <span class="highlight">automation testing</span> for complex web applications and e-commerce platforms. Background also includes a stint in frontend development, which helps in spotting UI issues early and understanding how the product is actually built under the hood.
-            </p>
-            <p>
-                Comfortable designing test strategies, building automation frameworks from the ground up, and wiring testing into CI/CD pipelines in Agile/Scrum teams. Main automation stack is <strong>Java</strong> (Selenium WebDriver, TestNG, POM), with working knowledge of <strong>JavaScript/TypeScript</strong> and <strong>ReactJS</strong> that supports Shift-Left testing. Also experienced in API testing, performance testing with <strong>JMeter</strong>, and newer tools like <strong>Playwright</strong> and <strong>Python</strong>. Works closely with development teams to close the gap between dev and QA, aiming for reliable releases and a consistent user experience.
+                <span class="highlight">QA Engineer</span> with 2+ years of experience in <span class="highlight">manual and automation testing</span> for enterprise web applications and e-commerce platforms. Builds UI automation frameworks in <strong>Java</strong> (Selenium WebDriver, TestNG, Page Object Model) and integrates them into <strong>GitHub Actions</strong>, reducing manual regression time by ~65%. Experienced in API testing (<strong>Postman</strong>), performance testing (<strong>Apache JMeter</strong>) and UI automation with <strong>Playwright</strong> (TypeScript). Prior ReactJS development experience supports early defect detection and effective collaboration with developers in Agile/Scrum teams.
             </p>
         </section>
 
         <section>
-            <h2>Technical Competencies</h2>
+            <h2>Technical Skills</h2>
             <table class="skills-table">
-                <tr>
-                    <td>Testing Methodologies</td>
-                    <td>Manual &amp; Automated Testing, Shift-Left Testing, Regression, Exploratory, Smoke/Sanity Testing, Test Strategy &amp; Planning</td>
-                </tr>
-                <tr>
-                    <td>Automation &amp; Frameworks</td>
-                    <td><strong>Selenium WebDriver</strong>, <strong>Playwright</strong> (TypeScript/JS), <strong>TestNG</strong>, Page Object Model (POM), Data-Driven Testing</td>
-                </tr>
-                <tr>
-                    <td>AI-Assisted Testing</td>
-                    <td>Uses AI tools to help generate, refine, and maintain test cases</td>
-                </tr>
-                <tr>
-                    <td>Programming</td>
-                    <td><strong>Java</strong> (OOP, Core Java for Test Automation) &ndash; Proficient; <strong>JavaScript/TypeScript</strong>, HTML/CSS &ndash; Proficient; <strong>Python</strong> (Scripting &amp; Data processing), SQL (Data validation) &ndash; Familiar/Applied</td>
-                </tr>
-                <tr>
-                    <td>API &amp; Performance</td>
-                    <td><strong>Postman</strong> (Collections, environment variables, automated assertions); <strong>Apache JMeter</strong> (Thread Groups, Assertions, throughput &amp; bottleneck analysis)</td>
-                </tr>
-                <tr>
-                    <td>Databases</td>
-                    <td>MySQL, PostgreSQL, SQL Server &ndash; Familiar/Applied</td>
-                </tr>
-                <tr>
-                    <td>Tools &amp; Version Control</td>
-                    <td><strong>Git / GitHub</strong>; <strong>Jira</strong>, Confluence</td>
-                </tr>
-                <tr>
-                    <td>Methodologies &amp; CI/CD</td>
-                    <td>Agile/Scrum, SDLC/STLC, Defect Lifecycle Management, Root Cause Analysis, CI/CD Integration via <strong>GitHub Actions</strong></td>
-                </tr>
+                <tr><td>Test Automation</td><td><strong>Selenium WebDriver</strong> (Java), <strong>TestNG</strong>, Page Object Model (POM), Data-Driven Testing, <strong>Playwright</strong> (TypeScript)</td></tr>
+                <tr><td>Testing Types &amp; Techniques</td><td>Functional, Regression, Smoke/Sanity, Exploratory, Integration, API and Performance Testing; Boundary Value Analysis; Test Planning &amp; Strategy; Shift-Left Testing</td></tr>
+                <tr><td>API &amp; Performance</td><td><strong>Postman</strong> (collections, environment variables, automated assertions); <strong>Apache JMeter</strong> (Thread Groups, Assertions, throughput and bottleneck analysis)</td></tr>
+                <tr><td>Programming</td><td><strong>Java</strong> (OOP) - Proficient; <strong>JavaScript/TypeScript</strong>, HTML/CSS - Intermediate; <strong>Python</strong> (scripting, test data generation) - Working knowledge</td></tr>
+                <tr><td>CI/CD &amp; Tools</td><td><strong>GitHub Actions</strong>, <strong>Git/GitHub</strong>, <strong>Jira</strong>, Confluence</td></tr>
+                <tr><td>Databases</td><td>SQL for data validation: MySQL, PostgreSQL, SQL Server - Working knowledge</td></tr>
+                <tr><td>Process</td><td>Agile/Scrum, SDLC/STLC, Defect Management, Root Cause Analysis</td></tr>
+                <tr><td>AI-Assisted Testing</td><td>Uses generative AI to draft and refine test cases and test data</td></tr>
             </table>
         </section>
 
         <section>
             <h2>Work Experience</h2>
-
             <div class="item-block">
-                <div class="table-row-full">
-                    <div class="cell-left">AGEST VIETNAM</div>
-                    <div class="cell-right">06/2024 - Present</div>
-                </div>
-                <div class="table-row-full">
-                    <div class="cell-sub-left">QA Engineer (Manual &amp; Automation)</div>
-                    <div class="cell-sub-right">Ho Chi Minh City, Vietnam</div>
-                </div>
+                <div class="table-row-full"><div class="cell-left">AGEST VIETNAM</div><div class="cell-right">06/2024 - Present</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">QA Engineer (Manual &amp; Automation)</div><div class="cell-sub-right">Ho Chi Minh City, Vietnam</div></div>
                 <ul>
-                    <li>Owns the end-to-end testing process for enterprise web applications, working closely with POs and developers to refine acceptance criteria and catch defects early (Shift-Left).</li>
-                    <li>Built and maintains a UI automation framework in Java using Selenium WebDriver and TestNG, structured around the Page Object Model (POM).</li>
-                    <li>Integrated the automated regression suite into GitHub Actions, cutting manual regression time by roughly 65% and giving the dev team faster feedback on each change.</li>
-                    <li>Writes and maintains API test scripts in Postman to check business logic separately from the UI.</li>
-                    <li>Runs performance and load testing with Apache JMeter, which has helped catch memory leaks and slow DB queries under loads of 500+ concurrent users.</li>
-                    <li>Mentors junior testers and interns on Agile processes, test case design, and basic Java automation.</li>
-                    <li>Delivered two client projects during this role - Safe Railway and the Omnichannel E-Commerce Platform, detailed under Featured Projects below.</li>
+                    <li>Responsible for end-to-end testing of enterprise web applications; work with Product Owners and developers to refine acceptance criteria and detect defects early (Shift-Left).</li>
+                    <li>Built and maintain a UI automation framework in Java using Selenium WebDriver, TestNG and Page Object Model; adopting Playwright (TypeScript) on new projects.</li>
+                    <li>Integrated the automated regression suite into GitHub Actions, reducing manual regression time by ~65% and giving the development team faster feedback on each change.</li>
+                    <li>Developed and maintain Postman collections to validate business logic at the API layer, independent of the UI.</li>
+                    <li>Run performance and load tests with Apache JMeter (500+ concurrent users) and identify bottlenecks such as slow database queries.</li>
+                    <li>Mentor junior testers and interns on Agile processes, test case design and Java automation basics.</li>
                 </ul>
             </div>
 
             <div class="item-block">
-                <div class="table-row-full">
-                    <div class="cell-left">NAM PHUONG DIGITAL TECHNOLOGY</div>
-                    <div class="cell-right">12/2023 - 05/2024</div>
-                </div>
-                <div class="table-row-full">
-                    <div class="cell-sub-left">Frontend Developer Intern (ReactJS)</div>
-                    <div class="cell-sub-right">Ho Chi Minh City, Vietnam</div>
-                </div>
+                <div class="table-row-full"><div class="cell-left">NAM PHUONG DIGITAL TECHNOLOGY</div><div class="cell-right">12/2023 - 05/2024</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">Frontend Developer Intern (ReactJS)</div><div class="cell-sub-right">Ho Chi Minh City, Vietnam</div></div>
                 <ul>
-                    <li>Developed responsive UI components using ReactJS, HTML5, and CSS3, and picked up a practical understanding of frontend architecture and common UI defect patterns along the way.</li>
-                    <li>Took part in debugging and testing, fixing cross-browser compatibility issues that helped reduce UI-related bugs by around 20% before QA handover.</li>
-                    <li>Built a working knowledge of DOM structure, RESTful APIs, and browser developer tools (Network, Console, Elements) - skills that carried over directly into UI automation and root cause analysis later on.</li>
-                    <li>Worked with backend developers on API integration, which strengthened understanding of request/response flows relevant to API testing.</li>
+                    <li>Developed responsive UI components with ReactJS, HTML5 and CSS3.</li>
+                    <li>Fixed cross-browser compatibility issues, reducing UI-related bugs by ~20% before QA handover.</li>
+                    <li>Gained working knowledge of the DOM, RESTful APIs and browser DevTools (Network, Console, Elements), later applied to UI automation and root cause analysis.</li>
+                    <li>Collaborated with backend developers on API integration, gaining insight into request/response flows relevant to API testing.</li>
                 </ul>
             </div>
         </section>
 
         <section>
             <h2>Featured Projects</h2>
-
             <div class="item-block">
-                <div class="table-row-full">
-                    <div class="cell-left">Safe Railway - Enterprise Ticketing &amp; Logistics System</div>
-                    <div class="cell-right">06/2024 - 02/2025</div>
-                </div>
-                <div class="table-row-full">
-                    <div class="cell-sub-left">Focus: Test Automation &amp; Performance Testing</div>
-                </div>
+                <div class="table-row-full"><div class="cell-left">Safe Railway - Enterprise Ticketing &amp; Logistics System</div><div class="cell-right">06/2024 - 02/2025</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">Focus: Test Automation &amp; Performance Testing</div></div>
                 <p class="project-note">Client project delivered as part of the QA Engineer role at AGEST Vietnam</p>
-                <div class="project-details">
-                    <strong>Tech Stack:</strong>
-                    <span class="tag">Java</span><span class="tag">Selenium</span><span class="tag">TestNG</span><span class="tag">Apache JMeter</span><span class="tag">GitHub Actions</span><span class="tag">MySQL</span>
-                </div>
-                <p style="font-size: 8.8pt; margin: 4px 0;">A high-traffic railway management and booking system serving 5,000+ daily active users, with dynamic pricing, real-time seat mapping, and integrated payment gateways.</p>
+                <div class="project-details"><strong>Tech Stack:</strong> <span class="tag">Java</span><span class="tag">Selenium</span><span class="tag">TestNG</span><span class="tag">Apache JMeter</span><span class="tag">GitHub Actions</span><span class="tag">MySQL</span></div>
+                <p style="font-size: 10pt; margin: 4px 0;">Railway management and booking system serving 5,000+ daily active users, with dynamic pricing, real-time seat mapping and integrated payment gateways.</p>
                 <ul>
-                    <li>Put together a test strategy covering functional, integration, and performance layers.</li>
-                    <li>Built an automated regression suite from scratch (Selenium + Java) covering 100+ user paths, including search, reservation, and mock payment flows.</li>
-                    <li>Set up GitHub Actions to trigger automated tests on every deployment to staging.</li>
-                    <li>Configured JMeter load tests to simulate holiday-season traffic spikes (1,000+ requests/sec) and worked with backend devs to bring the booking API's response time down from 3.5s to under 1.2s.</li>
+                    <li>Defined the test strategy covering functional, integration and performance testing.</li>
+                    <li>Built an automated regression suite from scratch (Java, Selenium, TestNG) covering 100+ user flows, including search, reservation and mock payment.</li>
+                    <li>Configured GitHub Actions to run automated tests on every deployment to staging.</li>
+                    <li>Designed JMeter load tests simulating holiday peak traffic (500+ concurrent users) and worked with backend developers to cut booking API response time from 3.5s to under 1.2s (over 65% faster).</li>
                 </ul>
             </div>
 
             <div class="item-block">
-                <div class="table-row-full">
-                    <div class="cell-left">Omnichannel E-Commerce Platform</div>
-                    <div class="cell-right">03/2025 - Present</div>
-                </div>
-                <div class="table-row-full">
-                    <div class="cell-sub-left">Focus: Test Automation &amp; API Testing</div>
-                </div>
+                <div class="table-row-full"><div class="cell-left">Omnichannel E-Commerce Platform</div><div class="cell-right">03/2025 - Present</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">Focus: Test Automation &amp; API Testing</div></div>
                 <p class="project-note">Client project delivered as part of the QA Engineer role at AGEST Vietnam</p>
-                <div class="project-details">
-                    <strong>Tech Stack:</strong>
-                    <span class="tag">Playwright (TypeScript)</span><span class="tag">Postman</span><span class="tag">Python</span><span class="tag">Jira</span>
-                </div>
-                <p style="font-size: 8.8pt; margin: 4px 0;">A scalable omnichannel e-commerce platform supporting 5,000+ SKUs across three sales channels (web, mobile, POS), with real-time inventory management, cart workflows, and multiple third-party logistics integrations.</p>
+                <div class="project-details"><strong>Tech Stack:</strong> <span class="tag">Playwright (TypeScript)</span><span class="tag">Postman</span><span class="tag">Python</span><span class="tag">Jira</span></div>
+                <p style="font-size: 10pt; margin: 4px 0;">Omnichannel e-commerce platform supporting 5,000+ SKUs across three sales channels (web, mobile, POS), with real-time inventory management, cart workflows and multiple third-party logistics integrations.</p>
                 <ul>
-                    <li>Piloted UI automation with Playwright and TypeScript, which improved test execution speed over the team's legacy scripts.</li>
-                    <li>Handles API testing through Postman to check inventory sync between web and mobile.</li>
-                    <li>Uses Python scripts to generate mock test data for edge cases, such as flash sales and negative-inventory scenarios.</li>
-                    <li>Runs exploratory and boundary value testing to support a reliable checkout flow, helping keep the post-release defect rate low.</li>
+                    <li>Introduced UI automation with Playwright and TypeScript, improving test execution speed compared with the team's legacy scripts.</li>
+                    <li>Performed API testing with Postman to verify inventory synchronization between web and mobile channels.</li>
+                    <li>Wrote Python scripts to generate test data for edge cases such as flash sales and negative inventory.</li>
+                    <li>Performed exploratory and boundary value testing on the checkout flow to keep the post-release defect rate low.</li>
                 </ul>
             </div>
         </section>
 
-        <section style="page-break-inside: avoid;">
+        <section>
             <h2>Education &amp; Certifications</h2>
             <div class="education-zone">
                 <strong>TON DUC THANG UNIVERSITY</strong> &ndash; Bachelor of Software Engineering | <strong>GPA: 7.61 / 10</strong><br>
                 &bull; Certification: <strong>Agile Development &amp; Scrum Framework Professional</strong> (10/2023)<br>
-                &bull; English Language: <strong>Aptis ESOL B1</strong> (03/2024)
+                &bull; English: <strong>Aptis General, CEFR B1</strong> (03/2024)
             </div>
         </section>
     </div>
