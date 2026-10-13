@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Nguyen_Khanh_Hoa_QA_Engineer</title>
+    <style>
+        :root{--ink:#1c2128;--muted:#5b6470;--rule:#d8dde3;--wash:#f1f5f3;--accent:#0f6b4f}
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;color:var(--ink);font-size:10pt;line-height:1.38;background:#fff}
+        @page{size:A4;margin:11mm 14mm}
+        .cv-container{max-width:200mm;margin:0 auto;padding:12mm 10mm}
+        a{color:inherit}
+        a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+        header{border-top:5px solid var(--accent);padding-top:5mm;margin-bottom:5mm}
+        h1{font-family:Georgia,"Times New Roman",serif;font-size:27pt;line-height:1.1;font-weight:700;letter-spacing:-.01em}
+        .job-title{font-size:11.5pt;font-weight:600;color:var(--accent);margin:2mm 0 4mm}
+        .contact-row{font-size:9pt;color:var(--muted);padding-top:3mm;border-top:1px solid var(--rule)}
+        .contact-row>span{display:inline-block;white-space:nowrap;margin-right:6mm}
+        .contact-row>span:last-child{margin-right:0}
+        .contact-row strong{color:var(--ink)}
+        .contact-row .divider,.contact-row>span[style]{display:none}
+        .contact-row a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+
+        section{padding:3.2mm 0 3.2mm 37mm;border-top:1px solid var(--rule)}
+        section::after{content:'';display:block;clear:both}
+        h2{float:left;width:30mm;margin-left:-37mm;font-family:Georgia,"Times New Roman",serif;font-size:12pt;line-height:1.25;font-weight:700;color:var(--accent)}
+        p{margin:0 0 1mm}
+        .highlight{font-weight:700}
+
+        .skills-table{width:100%;border-collapse:collapse}
+        .skills-table td{padding:1.4mm 0;vertical-align:top;border-bottom:1px solid var(--rule);font-size:9.6pt}
+        .skills-table tr:last-child td{border-bottom:0}
+        .skills-table td:first-child{width:30%;padding-right:4mm;font-weight:700}
+
+        .item-block{margin-bottom:3.5mm}
+        .item-block:last-child{margin-bottom:0}
+        .table-row-full{display:table;width:100%}
+        .table-row-full>div{display:table-cell;vertical-align:baseline}
+        .cell-left{font-weight:700;font-size:10.8pt}
+        .cell-right,.cell-sub-right{text-align:right;padding-left:6mm}
+        .cell-right{font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+        .cell-sub-left{color:var(--accent);font-weight:600}
+        .cell-sub-right{color:var(--muted);font-size:9.4pt}
+        ul{margin:1.5mm 0 0 4.5mm;list-style:disc}
+        li{margin-bottom:.7mm;font-size:9.8pt}
+        li::marker{color:var(--accent)}
+        .project-note{font-size:9pt;color:var(--muted);margin:.5mm 0 1.5mm}
+        .project-details{background:var(--wash);padding:1.6mm 2.4mm;margin:1.5mm 0;font-size:9.4pt;border-radius:2px}
+        .tag{display:inline-block;background:#fff;color:var(--accent);border:1px solid #c5ddd2;border-radius:2px;padding:0 5px;font-size:8.8pt;font-weight:600;margin:1px 2px 1px 0}
+        .education-zone{line-height:1.6;font-size:9.8pt}
+
+        @media (max-width:640px){
+            .cv-container{padding:8mm 5mm}
+            section{padding-left:0}
+            h2{float:none;width:auto;margin:0 0 2mm}
+            .contact-row>span{display:block;white-space:normal;margin:0 0 1mm}
+        }
+        @media print{
+            body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+            .cv-container{max-width:none;padding:0}
+            .table-row-full,.project-details,.skills-table tr,header,li{break-inside:avoid}
+            .table-row-full,.project-note{break-after:avoid}
+            h2{break-after:avoid}
+            p,li{orphans:3;widows:3}
+            a{text-decoration:none!important}
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <header>
+            <h1>Nguyen Khanh Hoa</h1>
+            <div class="job-title">QA Engineer | Manual &amp; Automation Testing</div>
+            <div class="contact-row">
+                <span><strong>Phone:</strong> 0702935541</span>
+                <span class="divider">|</span>
+                <span><strong>Email:</strong> <a href="mailto:nguyenkhanhhoa3541@gmail.com">nguyenkhanhhoa3541@gmail.com</a></span>
+                <span><strong>Location:</strong> Tan Binh District, Ho Chi Minh City, Vietnam</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                <span class="highlight">QA Engineer</span> with 2+ years of experience in <span class="highlight">manual and automation testing</span> for enterprise web applications and e-commerce platforms. Builds UI automation frameworks in <strong>Java</strong> (Selenium WebDriver, TestNG, Page Object Model) and integrates them into <strong>GitHub Actions</strong>, reducing manual regression time by ~65%. Experienced in API testing (<strong>Postman</strong>), performance testing (<strong>Apache JMeter</strong>) and UI automation with <strong>Playwright</strong> (TypeScript). Prior ReactJS development experience supports early defect detection and effective collaboration with developers in Agile/Scrum teams.
+            </p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <table class="skills-table">
+                <tr><td>Test Automation</td><td><strong>Selenium WebDriver</strong> (Java), <strong>TestNG</strong>, Page Object Model (POM), Data-Driven Testing, <strong>Playwright</strong> (TypeScript)</td></tr>
+                <tr><td>Testing Types &amp; Techniques</td><td>Functional, Regression, Smoke/Sanity, Exploratory, Integration, API and Performance Testing; Boundary Value Analysis; Test Planning &amp; Strategy; Shift-Left Testing</td></tr>
+                <tr><td>API &amp; Performance</td><td><strong>Postman</strong> (collections, environment variables, automated assertions); <strong>Apache JMeter</strong> (Thread Groups, Assertions, throughput and bottleneck analysis)</td></tr>
+                <tr><td>Programming</td><td><strong>Java</strong> (OOP) - Proficient; <strong>JavaScript/TypeScript</strong>, HTML/CSS - Intermediate; <strong>Python</strong> (scripting, test data generation) - Working knowledge</td></tr>
+                <tr><td>CI/CD &amp; Tools</td><td><strong>GitHub Actions</strong>, <strong>Git/GitHub</strong>, <strong>Jira</strong>, Confluence</td></tr>
+                <tr><td>Databases</td><td>SQL for data validation: MySQL, PostgreSQL, SQL Server - Working knowledge</td></tr>
+                <tr><td>Process</td><td>Agile/Scrum, SDLC/STLC, Defect Management, Root Cause Analysis</td></tr>
+                <tr><td>AI-Assisted Testing</td><td>Uses generative AI to draft and refine test cases and test data</td></tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <div class="item-block">
+                <div class="table-row-full"><div class="cell-left">AGEST VIETNAM</div><div class="cell-right">06/2024 - Present</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">QA Engineer (Manual &amp; Automation)</div><div class="cell-sub-right">Ho Chi Minh City, Vietnam</div></div>
+                <ul>
+                    <li>Responsible for end-to-end testing of enterprise web applications; work with Product Owners and developers to refine acceptance criteria and detect defects early (Shift-Left).</li>
+                    <li>Built and maintain a UI automation framework in Java using Selenium WebDriver, TestNG and Page Object Model; adopting Playwright (TypeScript) on new projects.</li>
+                    <li>Integrated the automated regression suite into GitHub Actions, reducing manual regression time by ~65% and giving the development team faster feedback on each change.</li>
+                    <li>Developed and maintain Postman collections to validate business logic at the API layer, independent of the UI.</li>
+                    <li>Run performance and load tests with Apache JMeter (500+ concurrent users) and identify bottlenecks such as slow database queries.</li>
+                    <li>Mentor junior testers and interns on Agile processes, test case design and Java automation basics.</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <div class="table-row-full"><div class="cell-left">NAM PHUONG DIGITAL TECHNOLOGY</div><div class="cell-right">12/2023 - 05/2024</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">Frontend Developer Intern (ReactJS)</div><div class="cell-sub-right">Ho Chi Minh City, Vietnam</div></div>
+                <ul>
+                    <li>Developed responsive UI components with ReactJS, HTML5 and CSS3.</li>
+                    <li>Fixed cross-browser compatibility issues, reducing UI-related bugs by ~20% before QA handover.</li>
+                    <li>Gained working knowledge of the DOM, RESTful APIs and browser DevTools (Network, Console, Elements), later applied to UI automation and root cause analysis.</li>
+                    <li>Collaborated with backend developers on API integration, gaining insight into request/response flows relevant to API testing.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="item-block">
+                <div class="table-row-full"><div class="cell-left">Safe Railway - Enterprise Ticketing &amp; Logistics System</div><div class="cell-right">06/2024 - 02/2025</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">Focus: Test Automation &amp; Performance Testing</div></div>
+                <p class="project-note">Client project delivered as part of the QA Engineer role at AGEST Vietnam</p>
+                <div class="project-details"><strong>Tech Stack:</strong> <span class="tag">Java</span><span class="tag">Selenium</span><span class="tag">TestNG</span><span class="tag">Apache JMeter</span><span class="tag">GitHub Actions</span><span class="tag">MySQL</span></div>
+                <p style="font-size: 10pt; margin: 4px 0;">Railway management and booking system serving 5,000+ daily active users, with dynamic pricing, real-time seat mapping and integrated payment gateways.</p>
+                <ul>
+                    <li>Defined the test strategy covering functional, integration and performance testing.</li>
+                    <li>Built an automated regression suite from scratch (Java, Selenium, TestNG) covering 100+ user flows, including search, reservation and mock payment.</li>
+                    <li>Configured GitHub Actions to run automated tests on every deployment to staging.</li>
+                    <li>Designed JMeter load tests simulating holiday peak traffic (500+ concurrent users) and worked with backend developers to cut booking API response time from 3.5s to under 1.2s (over 65% faster).</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <div class="table-row-full"><div class="cell-left">Omnichannel E-Commerce Platform</div><div class="cell-right">03/2025 - Present</div></div>
+                <div class="table-row-full"><div class="cell-sub-left">Focus: Test Automation &amp; API Testing</div></div>
+                <p class="project-note">Client project delivered as part of the QA Engineer role at AGEST Vietnam</p>
+                <div class="project-details"><strong>Tech Stack:</strong> <span class="tag">Playwright (TypeScript)</span><span class="tag">Postman</span><span class="tag">Python</span><span class="tag">Jira</span></div>
+                <p style="font-size: 10pt; margin: 4px 0;">Omnichannel e-commerce platform supporting 5,000+ SKUs across three sales channels (web, mobile, POS), with real-time inventory management, cart workflows and multiple third-party logistics integrations.</p>
+                <ul>
+                    <li>Introduced UI automation with Playwright and TypeScript, improving test execution speed compared with the team's legacy scripts.</li>
+                    <li>Performed API testing with Postman to verify inventory synchronization between web and mobile channels.</li>
+                    <li>Wrote Python scripts to generate test data for edge cases such as flash sales and negative inventory.</li>
+                    <li>Performed exploratory and boundary value testing on the checkout flow to keep the post-release defect rate low.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education &amp; Certifications</h2>
+            <div class="education-zone">
+                <strong>TON DUC THANG UNIVERSITY</strong> &ndash; Bachelor of Software Engineering | <strong>GPA: 7.61 / 10</strong><br>
+                &bull; Certification: <strong>Agile Development &amp; Scrum Framework Professional</strong> (10/2023)<br>
+                &bull; English: <strong>Working proficiency</strong> (CEFR B1, Aptis General, 03/2024) - able to read technical documentation, write bug reports and communicate with international colleagues in daily work
+            </div>
+        </section>
+    </div>
+</body>
+</html>

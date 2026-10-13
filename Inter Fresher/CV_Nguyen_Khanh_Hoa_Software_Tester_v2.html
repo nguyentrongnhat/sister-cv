@@ -51,9 +51,12 @@
         header { padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
         h1 { font-size: 27pt; line-height: 1.1; font-weight: 700; color: var(--ink); letter-spacing: -0.4px; }
         .job-title { margin-top: 5px; font-size: 11pt; font-weight: 600; color: var(--accent); line-height: 1.35; }
-        .contact-row { display: flex; flex-wrap: wrap; gap: 2px 24px; font-size: 9.5pt; color: var(--text); }
-        .contact-row:first-of-type { margin-top: 11px; }
-        .contact-row + .contact-row { margin-top: 2px; }
+        .header-info { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3px 16px; font-size: 9pt; color: var(--text); }
+        .contact-row { display: contents; }
+        .header-divider { border: 0; border-top: 1px solid var(--line); margin: 11px 0 10px; }
+        @media (max-width: 640px) {
+            .header-info { flex-direction: column; justify-content: flex-start; }
+        }
         .contact-row strong { font-weight: 600; color: var(--muted); }
         .contact-row a { color: var(--text); text-decoration: none; }
         .contact-row span { white-space: nowrap; }
@@ -96,17 +99,22 @@
 
     <div class="cv-container">
         <header>
-            <h1>Nguyen Khanh Hoa</h1>
-            <div class="job-title">Software Tester (Intern/Fresher) | Manual &amp; Automation Testing</div>
-
-            <div class="contact-row">
-                <span><strong>Phone:</strong> 0702935541</span>
-                <span><strong>Email:</strong> <a href="mailto:nguyenkhanhhoa3541@gmail.com">nguyenkhanhhoa3541@gmail.com</a></span>
-                <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nguyenkhanhhoa02" target="_blank">linkedin.com/in/nguyenkhanhhoa02</a></span>
+            <div class="header-top">
+                <h1>Nguyen Khanh Hoa</h1>
+                <div class="job-title">Software Tester (Intern/Fresher) | Manual &amp; Automation Testing</div>
             </div>
-            <div class="contact-row">
-                <span><strong>Gender:</strong> Female</span>
-                <span><strong>Location:</strong> Tan Binh District, HCMC, Vietnam</span>
+
+            <hr class="header-divider">
+
+            <div class="header-info">
+                <div class="contact-row">
+                    <span><strong>Phone:</strong> 0702935541</span>
+                    <span><strong>Email:</strong> <a href="mailto:nguyenkhanhhoa3541@gmail.com">nguyenkhanhhoa3541@gmail.com</a></span>
+                </div>
+                <div class="contact-row">
+                    <span><strong>Gender:</strong> Female</span>
+                    <span><strong>Location:</strong> Tan Binh District, HCMC, Vietnam</span>
+                </div>
             </div>
         </header>
 
