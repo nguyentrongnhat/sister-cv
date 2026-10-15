@@ -12,7 +12,7 @@
             --accent: #0b7a75;
             --accent-soft: #eaf5f4;
             --text: #1f2933;
-            --muted: #5f6b7a;
+            --muted: #4b5767;
             --line: #dde3ea;
             --chip: #eef2f6;
         }
@@ -25,6 +25,8 @@
             line-height: 1.5;
             background: #eef1f5;
             -webkit-font-smoothing: antialiased;
+            font-kerning: normal;
+            text-rendering: optimizeLegibility;
         }
         @page { size: A4; margin: 12mm 14mm; }
 
@@ -36,6 +38,7 @@
             .cv-container { padding: 24px 18px; }
             section { grid-template-columns: 1fr; }
             .body { border-left: 0; padding-left: 0; }
+            .table-row-full { flex-wrap: wrap; }
         }
         @media print {
             html, body { height: auto; background: #fff; }
@@ -51,12 +54,9 @@
         header { padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
         h1 { font-size: 27pt; line-height: 1.1; font-weight: 700; color: var(--ink); letter-spacing: -0.4px; }
         .job-title { margin-top: 5px; font-size: 11pt; font-weight: 600; color: var(--accent); line-height: 1.35; }
-        .header-info { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3px 16px; font-size: 9pt; color: var(--text); }
+        .header-info { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; font-size: 10pt; color: var(--text); font-variant-numeric: tabular-nums; }
         .contact-row { display: contents; }
         .header-divider { border: 0; border-top: 1px solid var(--line); margin: 11px 0 10px; }
-        @media (max-width: 640px) {
-            .header-info { flex-direction: column; justify-content: flex-start; }
-        }
         .contact-row strong { font-weight: 600; color: var(--muted); }
         .contact-row a { color: var(--text); text-decoration: none; }
         .contact-row span { white-space: nowrap; }
@@ -71,7 +71,7 @@
 
         /* Skills */
         .skills-table { width: 100%; border-collapse: collapse; }
-        .skills-table td { padding: 5px 0; vertical-align: top; border-bottom: 1px solid var(--line); font-size: 9.5pt; line-height: 1.45; }
+        .skills-table td { padding: 5px 0; vertical-align: top; border-bottom: 1px solid var(--line); font-size: 10pt; line-height: 1.5; }
         .skills-table tr:first-child td { padding-top: 0; }
         .skills-table tr:last-child td { border-bottom: 0; padding-bottom: 0; }
         .skills-table tr td:first-child { width: 27%; padding-right: 12px; font-weight: 700; color: var(--ink); }
@@ -81,16 +81,17 @@
         .item-block:last-child { margin-bottom: 0; }
         .table-row-full { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
         .cell-left { font-weight: 700; font-size: 10.5pt; color: var(--ink); }
-        .cell-right { font-weight: 600; font-size: 9pt; color: var(--muted); white-space: nowrap; }
+        .cell-right { font-weight: 600; font-size: 9pt; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
         .cell-sub-left { font-weight: 600; font-size: 10pt; color: var(--accent); }
         .cell-sub-right { font-size: 9pt; color: var(--muted); white-space: nowrap; }
 
         ul { list-style-type: square; margin: 4px 0 0 16px; }
-        li { margin-bottom: 2px; text-align: left; font-size: 10pt; line-height: 1.45; }
+        li { margin-bottom: 3px; text-align: left; font-size: 10pt; line-height: 1.5; }
         li::marker { color: var(--accent); }
 
         .project-details { margin: 5px 0 3px; font-size: 9.5pt; line-height: 1.6; background: var(--accent-soft); padding: 5px 10px; border-left: 3px solid var(--accent); }
-        .education-zone { line-height: 1.7; font-size: 10pt; }
+        .project-details a { font-size: 9pt; overflow-wrap: anywhere; }
+        .education-zone { font-size: 10pt; }
         .highlight { font-weight: 700; color: var(--ink); }
         .tag { display: inline-block; background: #fff; color: var(--ink); border: 1px solid #cfe3e1; border-radius: 3px; padding: 0 6px; font-size: 9pt; font-weight: 500; margin: 1px 3px 1px 0; }
     </style>
@@ -107,13 +108,11 @@
             <hr class="header-divider">
 
             <div class="header-info">
+                <!-- Order: Location (screening filter) > Phone > Email (contact) -->
                 <div class="contact-row">
+                    <span><strong>Location:</strong> Tan Binh District, HCMC, Vietnam</span>
                     <span><strong>Phone:</strong> 0702935541</span>
                     <span><strong>Email:</strong> <a href="mailto:nguyenkhanhhoa3541@gmail.com">nguyenkhanhhoa3541@gmail.com</a></span>
-                </div>
-                <div class="contact-row">
-                    <span><strong>Gender:</strong> Female</span>
-                    <span><strong>Location:</strong> Tan Binh District, HCMC, Vietnam</span>
                 </div>
             </div>
         </header>
@@ -211,7 +210,7 @@
                     <div class="project-details">
                         <strong>Tech Stack:</strong>
                         <span class="tag">Java</span><span class="tag">Selenium WebDriver</span><span class="tag">TestNG</span><span class="tag">Apache JMeter</span><span class="tag">Git / GitHub</span>
-                        <br><strong>Code Repository:</strong> <a href="https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003" target="_blank" style="color: var(--accent);">github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003</a>
+                        <br><strong>Code Repository:</strong><br><a href="https://github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003" target="_blank" style="color: var(--accent);">github.com/NguyenKhanhHoa6235/Selenium-Agest-NguyenKhanhHoa-AGTT26.01.003</a>
                     </div>
                     <ul>
                         <li>Developed Selenium/Java automation scripts for core user flows (login, search, ticket booking) using the Page Object Model.</li>
@@ -246,10 +245,18 @@
             <h2>Education &amp; Certifications</h2>
             <div class="body">
                 <div class="education-zone">
-                    <strong>TON DUC THANG UNIVERSITY</strong> - Bachelor of Software Engineering | <strong>GPA: 7.61 / 10</strong> | Graduated: <strong>04/2026</strong><br>
-                    &bull; Certification: <strong>Agile Development &amp; Scrum Framework</strong> (10/2023) <!-- TODO: add the issuing organization -->
-                    <br>
-                    &bull; English: <strong>Working proficiency</strong> (CEFR B1, Aptis ESOL, 03/2024) - able to communicate with international colleagues on daily work and read technical documentation
+                    <div class="table-row-full">
+                        <div class="cell-left">TON DUC THANG UNIVERSITY</div>
+                        <div class="cell-right">Graduated: 04/2026</div>
+                    </div>
+                    <div class="table-row-full">
+                        <div class="cell-sub-left">Bachelor of Software Engineering</div>
+                        <div class="cell-sub-right">GPA: <span class="highlight">7.61 / 10</span></div>
+                    </div>
+                    <ul>
+                        <li>Certification: <strong>Agile Development &amp; Scrum Framework</strong> (10/2023) <!-- TODO: add the issuing organization --></li>
+                        <li>English: <strong>Working proficiency</strong> (CEFR B1, Aptis ESOL, 03/2024) - able to communicate with international colleagues on daily work and read technical documentation</li>
+                    </ul>
                 </div>
             </div>
         </section>
